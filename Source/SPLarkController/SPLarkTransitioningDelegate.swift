@@ -22,10 +22,13 @@
 import UIKit
 
 public final class SPLarkTransitioningDelegate: NSObject, UIViewControllerTransitioningDelegate {
-        
+    
+    var customHeight: CGFloat? = nil
+    
     public func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
         let controller = SPLarkPresentationController(presentedViewController: presented, presenting: presenting)
         controller.transitioningDelegate = self
+        controller.customHeight = self.customHeight
         return controller
     }
     

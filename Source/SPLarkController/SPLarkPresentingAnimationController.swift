@@ -32,8 +32,6 @@ final class SPLarkPresentingAnimationController: NSObject, UIViewControllerAnima
         
         let finalFrameForPresentedView = transitionContext.finalFrame(for: presentedViewController)
         presentedViewController.view.frame = finalFrameForPresentedView
-        //presentedViewController.view.frame = finalFrameForPresentedView
-        //presentedViewController.view.frame.origin.y = containerView.bounds.height
         
         UIView.animate(
             withDuration: transitionDuration(using: transitionContext),
@@ -42,14 +40,14 @@ final class SPLarkPresentingAnimationController: NSObject, UIViewControllerAnima
             initialSpringVelocity: 1,
             options: .curveEaseOut,
             animations: {
-                //presentedViewController.view.frame = finalFrameForPresentedView
+                
         }, completion: { finished in
             transitionContext.completeTransition(finished)
         })
     }
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        return 0.6
+        return 0.45
     }
 }
 

@@ -29,9 +29,10 @@ extension UIViewController {
             && presentingViewController != nil
     }
     
-    public func presentAsLark(_ controller: UIViewController, complection: (() -> Void)? = nil) {
+    public func presentAsLark(_ controller: UIViewController, height: CGFloat? = nil, complection: (() -> Void)? = nil) {
         if self.isPresentedAsLark { return }
         let transitionDelegate = SPLarkTransitioningDelegate()
+        transitionDelegate.customHeight = height
         controller.transitioningDelegate = transitionDelegate
         controller.modalPresentationStyle = .custom
         self.present(controller, animated: true, completion: complection)
