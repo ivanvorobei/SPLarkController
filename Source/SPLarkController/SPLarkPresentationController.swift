@@ -165,7 +165,7 @@ extension SPLarkPresentationController {
     private func updateForTranslation(inVerticalDirection translation: CGFloat) {
         if self.startDismissing { return }
         
-        let elasticThreshold: CGFloat = 120
+        let elasticThreshold: CGFloat = 0
         let translationFactor: CGFloat = 1 / 2
         
         if translation >= 0 {
