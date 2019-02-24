@@ -4,7 +4,7 @@ Modal controller with custom tranition. Good variant for implement setting in yo
 
 Preview GIF is loading `3mb`. Please, wait.
 
-<img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="250">
+<img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="200">
 
 You can download example [from AppStore](https://itunes.apple.com/app/id1446635818). Also in the app you can donate me a cup of coffee. If you want to buy source code of the app shown on the GIF above, please go to [xcode-shop.com](https://xcode-shop.com). Price: $200.
 
