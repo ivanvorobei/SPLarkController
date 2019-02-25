@@ -37,4 +37,17 @@ extension UIViewController {
         controller.modalPresentationStyle = .custom
         self.present(controller, animated: true, completion: complection)
     }
+    
+    public func presentLark(settings controller: SPLarkSettingsController) {
+        if self.isPresentedAsLark { return }
+        let transitionDelegate = SPLarkTransitioningDelegate()
+        var safeArea = UIEdgeInsets.zero
+        if #available(iOS 11.0, *) {
+            safeArea = UIApplication.shared.keyWindow?.safeAreaInsets ?? UIEdgeInsets.zero
+        }
+        transitionDelegate.customHeight = 250 + safeArea.bottom
+        controller.transitioningDelegate = transitionDelegate
+        controller.modalPresentationStyle = .custom
+        self.present(controller, animated: true, completion: nil)
+    }
 }
