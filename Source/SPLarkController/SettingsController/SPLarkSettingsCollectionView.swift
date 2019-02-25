@@ -56,11 +56,11 @@ class SPLarkSettingsCollectionView: UICollectionView {
         self.layout.minimumInteritemSpacing = 19 / 2
         self.contentInset = UIEdgeInsets.init(top: 0, left: self.sideInset, bottom: 0, right: self.sideInset)
         
-        self.register(SPLarkSettingCollectionViewCell.self, forCellWithReuseIdentifier: self.cellIdentificator)
+        self.register(SPLarkSettingsCollectionViewCell.self, forCellWithReuseIdentifier: self.cellIdentificator)
     }
     
-    func dequeueCell(indexPath: IndexPath) -> SPLarkSettingCollectionViewCell {
-        return self.dequeueReusableCell(withReuseIdentifier: self.cellIdentificator, for: indexPath) as! SPLarkSettingCollectionViewCell
+    func dequeueCell(indexPath: IndexPath) -> SPLarkSettingsCollectionViewCell {
+        return self.dequeueReusableCell(withReuseIdentifier: self.cellIdentificator, for: indexPath) as! SPLarkSettingsCollectionViewCell
     }
     
     func layout(y: CGFloat) {
