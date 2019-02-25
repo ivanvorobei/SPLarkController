@@ -34,6 +34,7 @@ extension UIViewController {
         let transitionDelegate = SPLarkTransitioningDelegate()
         transitionDelegate.customHeight = height
         controller.transitioningDelegate = transitionDelegate
+        controller.modalPresentationCapturesStatusBarAppearance = true
         controller.modalPresentationStyle = .custom
         self.present(controller, animated: true, completion: complection)
     }
@@ -47,6 +48,7 @@ extension UIViewController {
         }
         transitionDelegate.customHeight = 250 + safeArea.bottom
         controller.transitioningDelegate = transitionDelegate
+        controller.modalPresentationCapturesStatusBarAppearance = true
         controller.modalPresentationStyle = .custom
         self.present(controller, animated: true, completion: nil)
     }
