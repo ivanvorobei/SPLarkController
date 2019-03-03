@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "SPLarkController"
-  s.version       = "1.0.2"
+  s.version       = "1.0.3"
   s.summary       = "Modal controller with custom transition"
   s.homepage      = "https://github.com/IvanVorobei/SPLarkController"
   s.source        = { :git => "https://github.com/IvanVorobei/SPLarkController.git", :tag => s.version }

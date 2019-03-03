@@ -21,41 +21,44 @@
 
 import UIKit
 
-public class SPLarkSettingsController: UIViewController {
+open class SPLarkSettingsController: UIViewController {
     
     public let titleLabel = UILabel()
     let closeButton = SPLarkSettingsCloseButton()
     let collectionView = SPLarkSettingsCollectionView()
     
-    public func settingsCount() -> Int {
+    override open var preferredStatusBarUpdateAnimation: UIStatusBarAnimation { return .fade }
+    override open var preferredStatusBarStyle: UIStatusBarStyle { return .lightContent }
+    
+    open func settingsCount() -> Int {
         fatalError("SPLarkSettingsController - Need implement function")
     }
     
-    public func settingTitle(index: Int, highlighted: Bool) -> String {
+    open func settingTitle(index: Int, highlighted: Bool) -> String {
         fatalError("SPLarkSettingsController - Need implement function")
     }
     
-    public func settingSubtitle(index: Int, highlighted: Bool) -> String? {
+    open func settingSubtitle(index: Int, highlighted: Bool) -> String? {
         fatalError("SPLarkSettingsController - Need implement function")
     }
     
-    public func settingHighlighted(index: Int) -> Bool {
+    open func settingHighlighted(index: Int) -> Bool {
         fatalError("SPLarkSettingsController - Need implement function")
     }
     
-    public func settingColorHighlighted(index: Int) -> UIColor {
+    open func settingColorHighlighted(index: Int) -> UIColor {
         fatalError("SPLarkSettingsController - Need implement function")
     }
     
-    public func settingDidSelect(index: Int, complection: @escaping () -> ()) {
+    open func settingDidSelect(index: Int, complection: @escaping () -> ()) {
         fatalError("SPLarkSettingsController - Need implement function")
     }
     
-    public func reload(index: Int) {
+    open func reload(index: Int) {
         self.collectionView.reloadItems(at: [IndexPath.init(row: index, section: 0)])
     }
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         
         self.titleLabel.text = "Settings"
@@ -74,15 +77,7 @@ public class SPLarkSettingsController: UIViewController {
         self.view.addSubview(self.closeButton)
     }
     
-    public override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        UIView.animate(withDuration: 0.45) { () -> Void in
-            self.setNeedsStatusBarAppearanceUpdate()
-        }
-    }
-    
-    override public func viewDidLayoutSubviews() {
+    override open func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         self.titleLabel.sizeToFit()
         self.titleLabel.frame = CGRect.init(x: 27, y: 40, width: self.view.frame.width - 27 * 2, height: self.titleLabel.frame.height)
@@ -97,7 +92,7 @@ public class SPLarkSettingsController: UIViewController {
 
 extension SPLarkSettingsController: UICollectionViewDataSource, UICollectionViewDelegate {
     
-    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    open func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         switch collectionView {
         case self.collectionView:
             return self.settingsCount()
@@ -106,7 +101,7 @@ extension SPLarkSettingsController: UICollectionViewDataSource, UICollectionView
         }
     }
     
-    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    open func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         switch collectionView {
         case self.collectionView:
             let cell = self.collectionView.dequeueCell(indexPath: indexPath)
@@ -123,8 +118,8 @@ extension SPLarkSettingsController: UICollectionViewDataSource, UICollectionView
         }
     }
     
-    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if let cell = collectionView.cellForItem(at: indexPath) as? SPLarkSettingsCollectionViewCell {
+    open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let cell = collectionView.cellForItem(at: indexPath) as? SPLarkSettingCollectionViewCell {
             self.settingDidSelect(index: indexPath.row) {
                 let highlighted = self.settingHighlighted(index: indexPath.row)
                 cell.titleLabel.text = self.settingTitle(index: indexPath.row, highlighted: highlighted)

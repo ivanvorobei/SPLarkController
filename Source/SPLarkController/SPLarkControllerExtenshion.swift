@@ -23,13 +23,13 @@ import UIKit
 
 extension UIViewController {
     
-    public var isPresentedAsLark: Bool {
+    open var isPresentedAsLark: Bool {
         return transitioningDelegate is SPLarkTransitioningDelegate
             && modalPresentationStyle == .custom
             && presentingViewController != nil
     }
     
-    public func presentAsLark(_ controller: UIViewController, height: CGFloat? = nil, complection: (() -> Void)? = nil) {
+    open func presentAsLark(_ controller: UIViewController, height: CGFloat? = nil, complection: (() -> Void)? = nil) {
         if self.isPresentedAsLark { return }
         let transitionDelegate = SPLarkTransitioningDelegate()
         transitionDelegate.customHeight = height
@@ -39,7 +39,7 @@ extension UIViewController {
         self.present(controller, animated: true, completion: complection)
     }
     
-    public func presentLark(settings controller: SPLarkSettingsController) {
+    open func presentLark(settings controller: SPLarkSettingsController) {
         if self.isPresentedAsLark { return }
         let transitionDelegate = SPLarkTransitioningDelegate()
         var safeArea = UIEdgeInsets.zero
