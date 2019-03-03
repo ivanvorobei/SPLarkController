@@ -119,7 +119,7 @@ extension SPLarkSettingsController: UICollectionViewDataSource, UICollectionView
     }
     
     open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if let cell = collectionView.cellForItem(at: indexPath) as? SPLarkSettingCollectionViewCell {
+        if let cell = collectionView.cellForItem(at: indexPath) as? SPLarkSettingsCollectionViewCell {
             self.settingDidSelect(index: indexPath.row) {
                 let highlighted = self.settingHighlighted(index: indexPath.row)
                 cell.titleLabel.text = self.settingTitle(index: indexPath.row, highlighted: highlighted)
