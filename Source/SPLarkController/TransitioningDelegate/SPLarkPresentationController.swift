@@ -89,7 +89,7 @@ class SPLarkPresentationController: UIPresentationController, UIGestureRecognize
         self.snapshotView?.layer.masksToBounds = true
         
         if self.animateCornerRadius {
-            self.addCornerRadiusAnimation(for: self.snapshotView, cornerRadius: self.cornerRadius, duration: 0.6)
+            self.addCornerRadiusAnimation(for: self.snapshotView, cornerRadius: self.cornerRadius, duration: 0.45)
         } else {
             self.snapshotView?.layer.cornerRadius = self.cornerRadius
         }
@@ -121,7 +121,7 @@ class SPLarkPresentationController: UIPresentationController, UIGestureRecognize
         self.startDismissing = true
         
         if self.animateCornerRadius {
-            self.addCornerRadiusAnimation(for: self.snapshotView, cornerRadius: 0, duration: 0.6)
+            self.addCornerRadiusAnimation(for: self.snapshotView, cornerRadius: 0, duration: 0.45)
         } else {
             self.snapshotView?.layer.cornerRadius = self.cornerRadius
         }
