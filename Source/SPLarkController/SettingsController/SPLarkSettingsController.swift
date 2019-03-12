@@ -27,8 +27,7 @@ open class SPLarkSettingsController: UIViewController {
     let closeButton = SPLarkSettingsCloseButton()
     let collectionView = SPLarkSettingsCollectionView()
     
-    override open var preferredStatusBarUpdateAnimation: UIStatusBarAnimation { return .fade }
-    override open var preferredStatusBarStyle: UIStatusBarStyle { return .lightContent }
+    override open var preferredStatusBarUpdateAnimation: UIStatusBarAnimation { return .slide }
     
     open func settingsCount() -> Int {
         fatalError("SPLarkSettingsController - Need implement function")
