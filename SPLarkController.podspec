@@ -1,4 +1,5 @@
 Pod::Spec.new do |s|
+
   s.name          = "SPLarkController"
   s.version       = "1.0.5"
   s.summary       = "Modal controller with custom transition"
@@ -14,6 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
 
   s.source_files  = "Source/SPLarkController/**/*.swift"
+  
 end
 
 
