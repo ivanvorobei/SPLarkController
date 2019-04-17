@@ -1,6 +1,6 @@
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Banner.svg"/>
 
-This controller will help you realize the management of your application settings. You can add both buttons and switches. The amount cells is not limited.
+This controller help you implement setting screen easy. You can add both buttons and switches. The amount cells is not limited.
 
 Preview GIF is loading `3mb`. Please, wait.
 
