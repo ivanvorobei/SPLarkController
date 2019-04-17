@@ -1,12 +1,12 @@
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Banner.svg"/>
 
-Modal controller with custom tranition. Good variant for implement setting in your app.
+This controller will help you realize the management of your application settings. You can add both buttons and switches. The amount is not limited.
 
 Preview GIF is loading `3mb`. Please, wait.
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="500">
 
-If you want to buy source code of the full app, please go to [xcode-shop.com](https://xcode-shop.com). Price: $200.
+If you want to buy source code of the app from preview, please go to [xcode-shop.com](https://xcode-shop.com). Price for GitHub users - $300. Also you can see [detailed preview](https://xcode-shop.com/assets/preview/code.mov).
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Shop.svg"/>
 
@@ -15,15 +15,21 @@ I have a store where I sell applications and modules for Xcode projects. You can
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Shop.svg"/>
 
 ## Requirements
-Swift 4.2. Ready for use on iOS 10+
+Swift 4.2 & 5.0. Ready for use on iOS 10+
 
-## Integration
-Put `Source/SPLarkController` folder in your Xcode project. Make sure to enable `Copy items if needed` and `Create groups`.
+## Installation
 
-Or via CocoaPods:
+#### CocoaPods:
+
+You can use [CocoaPods](http://cocoapods.org/) to install `SPLarkController` by adding it to your `Podfile`:
+
 ```ruby
 pod 'SPLarkController'
 ```
+
+#### Manually
+
+Put `Source/SPLarkController` folder in your Xcode project. Make sure to enable `Copy items if needed` and `Create groups`.
 
 ## How to use
 
