@@ -6,7 +6,7 @@ Preview GIF is loading `3mb`. Please, wait.
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="500">
 
-If you want to buy source code of the app from preview, please go to [xcode-shop.com](https://xcode-shop.com). Price for GitHub users - $300. Also you can see [detailed preview](https://xcode-shop.com/assets/preview/code.mov).
+If you want to buy source code of the app from preview, please go to [xcode-shop.com](https://xcode-shop.com). Price for GitHub users - $300. Also you can see [detailed preview](https://xcode-shop.com/assets/preview/code.mov) with all the features and screens of the application.
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Shop.svg"/>
 
