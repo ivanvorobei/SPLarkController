@@ -105,7 +105,7 @@ I created [SPStorkController](https://github.com/IvanVorobei/SPStorkController).
 
 <img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="440">
 
-You can buy source code of this app on [xcode-shop.com](https://xcode-shop.com). Price: $200. Please, see [detailed preview](https://xcode-shop.com/assets/preview/debts.mov) or download app [from AppStore](https://itunes.apple.com/app/id1446635818). 
+You can buy source code of this app on [xcode-shop.com](https://xcode-shop.com). Price - $200. Please, see [detailed preview](https://xcode-shop.com/assets/preview/debts.mov) or download app [from AppStore](https://itunes.apple.com/app/id1446635818). 
 
 ### SPPermission
 Project [SPPermission](https://github.com/IvanVorobei/SPPermission) for managing permissions with customizable visual effects. Beautiful dialog increases the chance of approval (which is important when we request notification). Simple control of this module saves you hours of development. You can start using project with just two lines of code and easy customization!
@@ -116,5 +116,4 @@ Project [SPPermission](https://github.com/IvanVorobei/SPPermission) for managing
 `SPLarkController` is released under the MIT license. Check `LICENSE.md` for details.
 
 ## Contact
-If you need any application or UI to be developed, message me at hello@ivanvorobei.by. I develop iOS apps and create designs, too. I use `swift` for development. To request more functionality, you should create a new issue. 
-Here are my apps in AppStore: [first account](https://itunes.apple.com/us/developer/polina-zubarik/id1434528595) & [second account](https://itunes.apple.com/us/developer/mikalai-varabei/id1435792103).
+If you need any application or UI to be developed, message me at hello@ivanvorobei.by. I develop iOS apps and create designs, too. I use `swift` for development. To request more functionality, you should create a new issue.
