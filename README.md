@@ -1,10 +1,10 @@
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Banner.svg"/>
 
-This controller will help you realize the management of your application settings. You can add both buttons and switches. The amount is not limited.
+This controller will help you realize the management of your application settings. You can add both buttons and switches. The amount cells is not limited.
 
 Preview GIF is loading `3mb`. Please, wait.
 
-<img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="500">
+<img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
 
 If you want to buy source code of the app from preview, please go to [xcode-shop.com](https://xcode-shop.com). Price for GitHub users - $300. Also you can see [detailed preview](https://xcode-shop.com/assets/preview/code.mov) with all the features and screens of the application.
 
@@ -103,7 +103,7 @@ Here I would like to offer you my other projects.
 ### SPStorkController
 I created [SPStorkController](https://github.com/IvanVorobei/SPStorkController). It is a modal controller like in Mail or Apple Music application. Similar animation and transition. You can see an example of using controller in app [in AppStore](https://itunes.apple.com/app/id1446635818).
 
-<img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="500">
+<img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="440">
 
 You can buy source code of this app on [xcode-shop.com](https://xcode-shop.com). Price: $200.
 
