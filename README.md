@@ -1,4 +1,4 @@
-<img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Banner.svg"/>
+<img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Banner.svg"/>
 
 Modal controller with custom tranition. Good variant for implement setting in your app.
 
