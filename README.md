@@ -1,6 +1,6 @@
 # SPLarkController
 
-Make **settings** for application. You can add buttons and switches. The amount cells is not limited. You can start using project with just two lines of code and easy customization.
+Make **settings** for application. You can add buttons and switches. The amount cells is not limited. You can start using project with just two lines of code and easy customisation.
 You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore.
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
@@ -87,7 +87,7 @@ transitionDelegate.customHeight = 350
 
 ### Snapshots
 
-The project uses a snapshot of the screen in order to avoid compatibility and customization issues. Before controller presentation, a snapshot of the parent view is made, and size and position are changed for the snapshot. Sometimes you will need to update the screenshot of the parent view, for that use static func:
+The project uses a snapshot of the screen in order to avoid compatibility and customisation issues. Before controller presentation, a snapshot of the parent view is made, and size and position are changed for the snapshot. Sometimes you will need to update the screenshot of the parent view, for that use static func:
 
 ```swift
 SPLarkController.updatePresentingController(modal: controller)
@@ -117,7 +117,7 @@ If you want to **buy source code** of this apps, please, go to [xcode-shop.com](
 
 ### SPPermission
 
-[SPPermission](https://github.com/IvanVorobei/SPPermission) allow request permissions **with native dialog** UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customization. 
+[SPPermission](https://github.com/IvanVorobei/SPPermission) allow request permissions **with native dialog** UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customisation. 
 
 <img src="https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Preview.gif" width="500">
 
