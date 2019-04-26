@@ -1,7 +1,5 @@
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Banner.svg"/>
 
-This controller help you implement setting screen easy. You can add both buttons and switches. The amount cells is not limited.
-
 Preview GIF is loading `3mb`. Please, wait.
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
@@ -19,7 +17,7 @@ Swift 4.2 & 5.0. Ready for use on iOS 10+
 
 ## Installation
 
-#### CocoaPods:
+### CocoaPods:
 
 You can use [CocoaPods](http://cocoapods.org/) to install `SPLarkController` by adding it to your `Podfile`:
 
@@ -27,7 +25,7 @@ You can use [CocoaPods](http://cocoapods.org/) to install `SPLarkController` by 
 pod 'SPLarkController'
 ```
 
-#### Manually
+### Manually
 
 Put `Source/SPLarkController` folder in your Xcode project. Make sure to enable `Copy items if needed` and `Create groups`.
 
