@@ -1,25 +1,36 @@
-<img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Banner.svg"/>
+# SPLarkController
 
-Preview GIF is loading `3mb`. Please, wait.
+Make **settings** for application. You can add buttons and switches. The amount cells is not limited. You can start using project with just two lines of code and easy customization.
+You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore.
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
 
-You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore. Also you can buy source code of this app on [xcode-shop.com](https://xcode-shop.com) or see [detailed preview](https://xcode-shop.com/assets/preview/code.mov).
+If you want to **buy source code** of this apps, please, go to [xcode-shop.com](https://xcode-shop.com).
 
-<img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Shop.svg"/>
+## Navigate
 
-I have a store where I sell applications and modules for Xcode projects. You can find source codes of applications or custom animations / UI. I regularly update the code. Visit my website to see all items for sale: [xcode-shop.com](https://xcode-shop.com). On the website you can find previews and for some items links to AppStore.
-
-<img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Shop.svg"/>
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+    - [Parameters](#parameters)
+    - [Snapshots](#snapshots)
+    - [Delegate](#delegate)
+- [Other Projects (+gif)](#my-projects)
+    - [SPStorkController](#spstorkcontroller)
+    - [SPPermission](#sppermission)
+    - [Xcode Shop](#xcode-shop)
+- [License](#license)
+- [Contact or Order Develop](#contact)
 
 ## Requirements
-Swift 4.2 & 5.0. Ready for use on iOS 10+
+
+Swift 4.2 & **5.0**. Ready for use on iOS 10+
 
 ## Installation
 
 ### CocoaPods:
 
-You can use [CocoaPods](http://cocoapods.org/) to install `SPLarkController` by adding it to your `Podfile`:
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate `SPLarkController` into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 pod 'SPLarkController'
@@ -27,9 +38,9 @@ pod 'SPLarkController'
 
 ### Manually
 
-Put `Source/SPLarkController` folder in your Xcode project. Make sure to enable `Copy items if needed` and `Create groups`.
+If you prefer not to use any of the aforementioned dependency managers, you can integrate `SPLarkController` into your project manually. Put `Source/SPLarkController` folder in your Xcode project. Make sure to enable `Copy items if needed` and `Create groups`.
 
-## How to use
+## Usage
 
 Create controller and call func `presentAsLark`:
 
@@ -96,26 +107,26 @@ It’s needed for correct presentation and dismissal of all modal controllers.
 
 ## My projects
 
-Here I would like to offer you my other projects.
-
 ### SPStorkController
-I created [SPStorkController](https://github.com/IvanVorobei/SPStorkController). It is a modal controller like in Mail or Apple Music application. Similar animation and transition. You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) or [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) apps from AppStore.
 
-<img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="440">
+[SPStorkController](https://github.com/IvanVorobei/SPStorkController) is very similar to the modal **controller displayed in Apple Music, Podcasts and Mail** apps. Customizable height of view. Check scroll's bounce for more interactive. Simple adding close button and centering arrow indicator. You can download example [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) app from AppStore.
 
-You can buy source code of this apps on [xcode-shop.com](https://xcode-shop.com). 
+<img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="500">
+
+If you want to **buy source code** of this apps, please, go to [xcode-shop.com](https://xcode-shop.com).
 
 ### SPPermission
-Project [SPPermission](https://github.com/IvanVorobei/SPPermission) for managing permissions with customizable visual effects. Beautiful dialog increases the chance of approval. Simple control of this module saves you hours of development. You can start using project with just two lines of code and easy customization!
+
+[SPPermission](https://github.com/IvanVorobei/SPPermission) allow request permissions **with native dialog** UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customization. 
 
 <img src="https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Preview.gif" width="500">
 
-### Code
-Now I am developing a project that will be useful for beginners and experienced iOS developers. The AppStore presents [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) app, where I publish tutorials, interesting libraries, and design collections.<br>
-You can also test your skill by answering questions related to the development of iOS applications on my [website](https://code.ivanvorobei.by/exercises). If you want to add questions, please open the [GitHub project page](https://github.com/IvanVorobei/Code) and create new pull request.
+### Xcode Shop
+
+If you want **buy apps with source code**, you can visit my [xcode-shop.com](xcode-shop.com). Here I am sale apps, modules, 3D elements and other. In applications you can find many cool UI that will be useful for your projects. Also by buying, **you support me** and my free GitHub development.
 
 ## License
 `SPLarkController` is released under the MIT license. Check `LICENSE.md` for details.
 
 ## Contact
-If you need any application or UI to be developed, message me at hello@ivanvorobei.by. I develop iOS apps and create designs, too. I use `swift` for development. To request more functionality, you should create a new issue. My personal account with [apps](https://itunes.apple.com/developer/id1446635817).
+If you need any application or UI to be developed, message me at hello@ivanvorobei.by or via [telegram](https://t.me/ivanvorobei). I develop iOS apps and designs. I use `swift` for development. To request more functionality, you should create a new issue. You can see my [apps in AppStore](https://itunes.apple.com/developer/id1446635817).
