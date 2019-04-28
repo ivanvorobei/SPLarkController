@@ -1,7 +1,8 @@
 # SPLarkController
 
-Make **settings** for application. You can add buttons and switches. The amount cells is not limited. You can start using project with just two lines of code and easy customisation.
-You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore.
+Make **settings screen** for application. You can add **buttons and switches**. The amount cells is not limited. You can start using project with just two lines of code and easy customisation. You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore.
+
+### Preview
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
 
