@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name          = "SPLarkController"
   s.version       = "1.0.5"
-  s.summary       = "Modal controller with custom transition"
+  s.summary       = "Make settings screen for application. Can add buttons and switches. Easy customisation."
   s.homepage      = "https://github.com/IvanVorobei/SPLarkController"
   s.source        = { :git => "https://github.com/IvanVorobei/SPLarkController.git", :tag => s.version }
   s.license       = { :type => "MIT", :file => "LICENSE" }
