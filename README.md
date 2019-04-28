@@ -100,7 +100,7 @@ SPLarkController.updatePresentingController(modal: controller)
 
 and pass the controller, which is modal and uses `SPLarkTransitioningDelegate`
 
-### Modal presentation of different controller
+### Modal presentation of other controller
 
 If you want to present modal controller on SPLarkController, please set:
 
