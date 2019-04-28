@@ -13,7 +13,8 @@ If you want to **buy source code** of this apps, please, go to [xcode-shop.com](
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-    - [Parameters](#parameters)
+    - [Presenting](#presenting)
+    - [Custom Height](#custom-height)
     - [Snapshots](#snapshots)
     - [Delegate](#delegate)
 - [Other Projects (+gif)](#my-projects)
@@ -42,6 +43,8 @@ pod 'SPLarkController'
 If you prefer not to use any of the aforementioned dependency managers, you can integrate `SPLarkController` into your project manually. Put `Source/SPLarkController` folder in your Xcode project. Make sure to enable `Copy items if needed` and `Create groups`.
 
 ## Usage
+
+### Presenting
 
 Create controller and call func `presentAsLark`:
 
@@ -79,9 +82,10 @@ controller.transitioningDelegate = SPLarkTransitioningDelegate()
 
 You will get an error about weak property.
 
-### Parameters
+### Custom Height
 
-- Parameter `customHeight` sets custom height for modal controller. Default is `nil`:
+Parameter `customHeight` sets custom height for modal controller. Default is `nil`:
+
 ```swift
 transitionDelegate.customHeight = 350
 ```
