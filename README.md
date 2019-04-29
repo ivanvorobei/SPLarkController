@@ -1,6 +1,7 @@
 # SPLarkController
 
 Make **settings screen** for application. You can add **buttons and switches**. The amount cells is not limited. You can start using project with just two lines of code and easy customisation. You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore.
+<br>If you like the project, do not forget to **put star ★**
 
 ### Preview
 
