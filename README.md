@@ -128,7 +128,7 @@ If you want to **buy source code** of this apps, please, go to [xcode-shop.com](
 
 ### Xcode Shop
 
-If you want **buy apps with source code**, you can visit my [xcode-shop.com](xcode-shop.com). Here I am sale apps, modules, 3D elements and other. In applications you can find many cool UI that will be useful for your projects. Also by buying, **you support me** and my free GitHub development.
+If you want **buy apps with source code**, you can visit my [xcode-shop.com](https://xcode-shop.com). Here I am sale apps, modules, 3D elements and other. In applications you can find many cool UI that will be useful for your projects. Also by buying, **you support me** and my free GitHub development.
 
 ## License
 `SPLarkController` is released under the MIT license. Check `LICENSE.md` for details.
