@@ -19,6 +19,7 @@ If you want to **buy source code** of this apps, please, go to [xcode-shop.com](
     - [Delegate](#delegate)
 - [Other Projects (+gif)](#my-projects)
     - [SPStorkController](#spstorkcontroller)
+    - [SPAlert](#spalert)
     - [SPPermission](#sppermission)
     - [Xcode Shop](#xcode-shop)
 - [License](#license)
@@ -119,6 +120,18 @@ It’s needed for correct presentation and dismissal of all modal controllers.
 <img src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="440">
 
 If you want to **buy source code** of this apps, please, go to [xcode-shop.com](https://xcode-shop.com).
+
+### SPAlert
+
+Native popup [SPAlert](https://github.com/IvanVorobei/SPAlert) is **alert similar to Apple Music or Feedback in AppStore** app. Support animations. I tried to repeat Apple alert as much as possible. 
+
+<p float="left">
+    <img src="https://github.com/IvanVorobei/SPAlert/blob/master/Resources/Preview-Done.gif" width="250">
+    <img src="https://github.com/IvanVorobei/SPAlert/blob/master/Resources/Preview-Heart.gif" width="250">
+    <img src="https://github.com/IvanVorobei/SPAlert/blob/master/Resources/Preview-Message.gif" width="250">
+</p>
+
+You can download example app [Debts - Spending tracker](https://itunes.apple.com/app/id1446635818) from AppStore. If you want to **buy source code** of example apps, please, go to [xcode-shop.com](https://xcode-shop.com).
 
 ### SPPermission
 
