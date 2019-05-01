@@ -240,7 +240,7 @@ extension SPLarkPresentationController {
     private func addCornerRadiusAnimation(for view: UIView?, cornerRadius: CGFloat, duration: CFTimeInterval) {
         guard let view = view else { return }
         let animation = CABasicAnimation(keyPath:"cornerRadius")
-        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
         animation.fromValue = view.layer.cornerRadius
         animation.toValue = cornerRadius
         animation.duration = duration
