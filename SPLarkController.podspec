@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "SPLarkController"
-  s.version       = "1.0.5"
+  s.version       = "1.0.6"
   s.summary       = "Make settings screen for application. Can add buttons and switches. Easy customisation."
   s.homepage      = "https://github.com/IvanVorobei/SPLarkController"
   s.source        = { :git => "https://github.com/IvanVorobei/SPLarkController.git", :tag => s.version }
