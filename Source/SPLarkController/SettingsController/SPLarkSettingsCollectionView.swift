@@ -45,7 +45,7 @@ class SPLarkSettingsCollectionView: UICollectionView {
     
     internal func commonInit() {
         self.backgroundColor = UIColor.clear
-        self.decelerationRate = UIScrollView.DecelerationRate.fast
+        self.decelerationRate = UIScrollViewDecelerationRateFast
         self.delaysContentTouches = false
         self.isPagingEnabled = false
         self.showsHorizontalScrollIndicator = false
