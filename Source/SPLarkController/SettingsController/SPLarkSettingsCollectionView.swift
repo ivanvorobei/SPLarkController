@@ -21,7 +21,7 @@
 
 import UIKit
 
-class SPLarkSettingsCollectionView: UICollectionView {
+open class SPLarkSettingsCollectionView: UICollectionView {
     
     let layout = UICollectionViewFlowLayout()
     let cellIdentificator: String = "SPLarkSettingsCollectionViewCell"
