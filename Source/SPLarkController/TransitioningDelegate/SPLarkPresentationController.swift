@@ -32,12 +32,11 @@ class SPLarkPresentationController: UIPresentationController, UIGestureRecognize
     var pan: UIPanGestureRecognizer?
     var tap: UITapGestureRecognizer?
     
+    private var feedbackGenerator: UIImpactFeedbackGenerator = UIImpactFeedbackGenerator(style: .light)
+    private var afterReleaseDismissing: Bool = false
+    
     private var height: CGFloat {
-        if let height = self.customHeight {
-            return height
-        } else {
-            return 250 + self.safeArea.bottom
-        }
+        return self.customHeight ?? (250 + self.safeArea.bottom)
     }
 
     private var snapshotView: UIView?
@@ -74,6 +73,8 @@ class SPLarkPresentationController: UIPresentationController, UIGestureRecognize
     
     override func presentationTransitionWillBegin() {
         super.presentationTransitionWillBegin()
+        
+        self.feedbackGenerator.prepare()
         
         guard let containerView = self.containerView, let window = containerView.window  else { return }
 
@@ -203,6 +204,14 @@ extension SPLarkPresentationController {
             self.snapshotViewContainer.transform = self.identityTransformForSnapshot.translatedBy(x: 0, y: translationForModal)
         } else {
             self.snapshotViewContainer.transform = self.identityTransformForSnapshot
+        }
+        
+        if self.swipeToDismissEnabled {
+            let afterRealseDismissing = (translation >= self.translateForDismiss)
+            if afterRealseDismissing != self.afterReleaseDismissing {
+                self.afterReleaseDismissing = afterRealseDismissing
+                self.feedbackGenerator.impactOccurred()
+            }
         }
     }
     
