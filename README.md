@@ -6,7 +6,7 @@ Make **settings screen** for application. You can add **buttons and switches**. 
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
 
-For implement settings as in preiew, see section [Settings Controller](#settings-controller). If you want to **buy source code** of this apps, please, go to [xcode-shop.com](https://xcode-shop.com).
+For implement settings as in preiew, see section [Settings Controller](#settings-controller). If you want to **buy source code** of app from preview, please, go to [xcode-shop.com](https://xcode-shop.com).
 
 ## Navigate
 
