@@ -68,7 +68,7 @@ class SPLarkPresentationController: UIPresentationController, UIGestureRecognize
     
     override var frameOfPresentedViewInContainerView: CGRect {
         guard let containerView = containerView else { return .zero }
-        return CGRect(x: 0, y: containerView.bounds.height - self.height, width: containerView.bounds.width, height: containerView.bounds.height)
+        return CGRect(x: 0, y: containerView.bounds.height - self.height, width: containerView.bounds.width, height: self.height)
     }
     
     override func presentationTransitionWillBegin() {
