@@ -6,7 +6,7 @@ Make **settings screen** for application. You can add **buttons and switches**. 
 
 <img src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440">
 
-If you want to **buy source code** of this apps, please, go to [xcode-shop.com](https://xcode-shop.com).
+For implement settings as in preiew, see section [Cells](#cells). If you want to **buy source code** of this apps, please, go to [xcode-shop.com](https://xcode-shop.com).
 
 ## Navigate
 
@@ -15,8 +15,8 @@ If you want to **buy source code** of this apps, please, go to [xcode-shop.com](
 - [Usage](#usage)
     - [Presenting](#presenting)
     - [Custom Height](#custom-height)
+    - [Cells](#cells)
     - [Snapshots](#snapshots)
-    - [Delegate](#delegate)
 - [Other Projects (+gif)](#my-projects)
     - [SPStorkController](#spstorkcontroller)
     - [SPAlert](#spalert)
@@ -89,6 +89,14 @@ Parameter `customHeight` sets custom height for modal controller. Default is `ni
 
 ```swift
 transitionDelegate.customHeight = 350
+```
+
+### Cells
+
+You can simple implement settings controller as in preview. You need extend from `SPLarkSettingsController` and implement all methods for it. See class for more details.
+
+```swift
+class SettingsController: SPLarkSettingsController {}
 ```
 
 ### Snapshots
