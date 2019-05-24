@@ -1,6 +1,6 @@
 # SPLarkController
 
-<a href="https://github.com/Ramotion/animated-tab-bar">
+<a href="https://github.com/IvanVorobei/SPLarkController">
 <img align="left" src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440"/></a>
 
 <p><h2>About</h2></p>
