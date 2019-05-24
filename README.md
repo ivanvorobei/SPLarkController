@@ -4,7 +4,7 @@
     <img align="left" src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440"/>
 </p>
 
-<p><h2>About</h2>
+<p><h3>About</h3>
 Make <b>settings screen</b> for application. You can add <b>buttons and switches</b>. The amount cells is not limited. You can start using project with just two lines of code and easy customisation.<br>
 For implement settings as in preiew, see section <a href="https://github.com/IvanVorobei/SPLarkController#settings-controller">Settings Controller</a>. If you want to <b>buy source code</b> of app from preview, please, go to <a href="https://xcode-shop.com">xcode-shop.com</a><br><br>
 
