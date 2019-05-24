@@ -9,9 +9,11 @@
 [![Patron](https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Patron%20Button.svg)](https://patreon.com/ivanvorobei)
 </p>
 
+<br><br>
+
 For implement settings as in preiew, see section [Settings Controller](#settings-controller). If you want to **buy source code** of app from preview, please, go to [xcode-shop.com](https://xcode-shop.com).
 
-<br><br><br>
+<br>
 
 ## Navigate
 
