@@ -9,7 +9,7 @@
 You can download example app <a href="https://itunes.apple.com/app/id1453325619">Code - Learn Swift & Design</a> from AppStore. If you like the project, do not forget to <b>put star ★</b> or donate:
 
 [![Patron](https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Patron%20Button.svg)](https://patreon.com/ivanvorobei)
-</p><br>
+</p><br><br>
 
 ## Navigate
 
