@@ -3,14 +3,14 @@
 <a href="https://github.com/Ramotion/animated-tab-bar">
 <img align="left" src="https://github.com/IvanVorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440"/></a>
 
-<p>Make <b>settings screen</b>> for application. You can add **buttons and switches**. The amount cells is not limited. You can start using project with just two lines of code and easy customisation. You can download example app <a href="https://itunes.apple.com/app/id1453325619">Code - Learn Swift & Design</a> from AppStore. If you like the project, do not forget to **put star ★** or donate:
+<p>Make <b>settings screen</b> for application. You can add <b>buttons and switches</b>. The amount cells is not limited. You can start using project with just two lines of code and easy customisation. You can download example app <a href="https://itunes.apple.com/app/id1453325619">Code - Learn Swift & Design</a> from AppStore. If you like the project, do not forget to <b>put star ★</b> or donate:
 
 [![Patron](https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Patron%20Button.svg)](https://patreon.com/ivanvorobei)
 </p>
 
 For implement settings as in preiew, see section [Settings Controller](#settings-controller). If you want to **buy source code** of app from preview, please, go to [xcode-shop.com](https://xcode-shop.com).
 
-<br>
+<br><br><br>
 
 ## Navigate
 
