@@ -8,9 +8,7 @@
 Make <b>settings screen</b> for application. You can add <b>buttons and switches</b>. The amount cells is not limited. You can start using project with just two lines of code and easy customisation.<br>
 For implement settings as in preiew, see section <a href="https://github.com/IvanVorobei/SPLarkController#settings-controller">Settings Controller</a>. If you want to <b>buy source code</b> of app from preview, please, go to <a href="https://xcode-shop.com" target="_blank">xcode-shop.com</a>
 <br><br>
-You can download example app <a href="https://itunes.apple.com/app/id1453325619" target="_blank">Code - Learn Swift & Design</a> from AppStore.
-<br><br>
-If you like the project, do not forget to <b>put star ★</b> or donate:<br>
+You can download example app <a href="https://itunes.apple.com/app/id1453325619" target="_blank">Code - Learn Swift & Design</a> from AppStore. If you like the project, do not forget to <b>put star ★</b> or donate:
 
 [![Patron](https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Patron%20Button.svg)](https://patreon.com/ivanvorobei)
 
