@@ -6,11 +6,13 @@
 
 <p><h3>About</h3>
 Make <b>settings screen</b> for application. You can add <b>buttons and switches</b>. The amount cells is not limited. You can start using project with just two lines of code and easy customisation.<br>
-For implement settings as in preiew, see section <a href="https://github.com/IvanVorobei/SPLarkController#settings-controller">Settings Controller</a>. If you want to <b>buy source code</b> of app from preview, please, go to <a href="https://xcode-shop.com">xcode-shop.com</a><br><br>
+For implement settings as in preiew, see section <a href="https://github.com/IvanVorobei/SPLarkController#settings-controller">Settings Controller</a>. If you want to <b>buy source code</b> of app from preview, please, go to <a href="https://xcode-shop.com" target="_blank">xcode-shop.com</a><br><br>
 
-You can download example app <a href="https://itunes.apple.com/app/id1453325619">Code - Learn Swift & Design</a> from AppStore. If you like the project, do not forget to <b>put star ★</b> or donate:
+You can download example app <a href="https://itunes.apple.com/app/id1453325619" target="_blank">Code - Learn Swift & Design</a> from AppStore. If you like the project, do not forget to <b>put star ★</b> or donate:
 
-[![Patron](https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Patron%20Button.svg)](https://patreon.com/ivanvorobei)</p><br><br>
+[![Patron](https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Patron%20Button.svg)](https://patreon.com/ivanvorobei)
+
+See project's backers in <a href="https://github.com/IvanVorobei/SPLarkController#sponsors">Sponsors</a> section.</p><br><br>
 
 ## Navigate
 
@@ -21,6 +23,7 @@ You can download example app <a href="https://itunes.apple.com/app/id1453325619"
     - [Custom Height](#custom-height)
     - [Settings Controller](#settings-controller)
     - [Snapshots](#snapshots)
+- [Sponsors](#sponsors)
 - [Other Projects (+gif)](#my-projects)
     - [SPStorkController](#spstorkcontroller)
     - [SPAlert](#spalert)
@@ -122,6 +125,14 @@ controller.modalPresentationStyle = .custom
 ```
 
 It’s needed for correct presentation and dismissal of all modal controllers.
+
+## Sponsors
+
+Support me with a monthly donation and help me continue activities. [[Become a sponsors](https://www.patreon.com/ivanvorobei)]
+
+<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/backers/zubarra.jpg" width="100"></a>
+<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/backers/zubarra.jpg" width="100"></a>
+<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/backers/zubarra.jpg" width="100"></a>
 
 ## My projects
 
