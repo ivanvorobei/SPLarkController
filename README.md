@@ -164,7 +164,9 @@ You can download example <a href="https://itunes.apple.com/app/id1446635818">Deb
 
 ### SPPermission
 
-<p><a href="https://github.com/IvanVorobei/SPPermission" target="_blank">SPPermission</a> allow request permissions <b>with native dialog</b> UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customisation. 
+<p><a href="https://github.com/IvanVorobei/SPPermission" target="_blank">SPPermission</a> allow request permissions <b>with native dialog</b> UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customisation.
+<br><br>
+If your app uses SPPermission, write me. I am adding you app as example of usage.
 
 ## License
 `SPLarkController` is released under the MIT license. Check `LICENSE.md` for details.
