@@ -158,15 +158,13 @@ You can download example <a href="https://itunes.apple.com/app/id1446635818">Deb
 
 ---
 
+<p float="left">
+    <img align="left" src="https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Preview.gif" width="220"/>
+</p>
+
 ### SPPermission
 
-[SPPermission](https://github.com/IvanVorobei/SPPermission) allow request permissions **with native dialog** UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customisation. 
-
-<img src="https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Preview.gif" width="500">
-
-### Xcode Shop
-
-If you want **buy apps with source code**, you can visit my [xcode-shop.com](https://xcode-shop.com). Here I am sale apps, modules, 3D elements and other. In applications you can find many cool UI that will be useful for your projects. Also by buying, **you support me** and my free GitHub development.
+<p><a href="https://github.com/IvanVorobei/SPPermission" target="_blank">SPPermission</a> allow request permissions <b>with native dialog</b> UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customisation. 
 
 ## License
 `SPLarkController` is released under the MIT license. Check `LICENSE.md` for details.
