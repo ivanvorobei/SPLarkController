@@ -136,7 +136,7 @@ Support me with a monthly donation and help me continue activities: [Become a sp
 ## My projects
 
 <p float="left">
-    <img align="left" src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="250"/>
+    <img align="left" src="https://github.com/IvanVorobei/SPStorkController/blob/master/Resources/Preview.gif" width="220"/>
 </p>
 
 ### SPStorkController
@@ -147,7 +147,7 @@ Alert you can find in <a href="https://github.com/IvanVorobei/SPAlert">SPAlert</
 ---
 
 <p float="left">
-    <img align="left" src="https://github.com/IvanVorobei/SPAlert/blob/master/Resources/Preview-Done.gif" width="250"/>
+    <img align="left" src="https://github.com/IvanVorobei/SPAlert/blob/master/Resources/Preview-Done.gif" width="220"/>
 </p>
 
 ### SPAlert
