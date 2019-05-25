@@ -5,8 +5,8 @@
 </p>
 
 <p><h3>About</h3>
-Make <b>settings screen</b> for application. You can add <b>buttons and switches</b>. The amount cells is not limited. You can start using project with just two lines of code and easy customisation.<br><br>
-For implement settings as in preiew, see section <a href="https://github.com/IvanVorobei/SPLarkController#settings-controller">Settings Controller</a>. You can download example app <a href="https://itunes.apple.com/app/id1453325619" target="_blank">Code - Learn Swift & Design</a> from AppStore. If you want to <b>buy source code</b> of app this app, please, go to <a href="https://xcode-shop.com" target="_blank">xcode-shop.com</a>
+Make <b>settings screen</b> for application. You can add <b>buttons and switches</b>. The amount cells is not limited. You can start using project with just two lines of code and easy customisation. For implement settings as in preiew, see section <a href="https://github.com/IvanVorobei/SPLarkController#settings-controller">Settings Controller</a>.<br><br>
+You can download example app <a href="https://itunes.apple.com/app/id1453325619" target="_blank">Code - Learn Swift & Design</a> from AppStore. If you want to <b>buy source code</b> of app this app, please, go to <a href="https://xcode-shop.com" target="_blank">xcode-shop.com</a>
 <br><br>
 If you like the project, do not forget to <b>put star ★</b> or donate:<br><br>
 
