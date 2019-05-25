@@ -10,7 +10,7 @@ For implement settings as in preiew, see section <a href="https://github.com/Iva
 <br><br>
 You can download example app <a href="https://itunes.apple.com/app/id1453325619" target="_blank">Code - Learn Swift & Design</a> from AppStore.
 <br><br>
-If you like the project, do not forget to <b>put star ★</b> or donate:
+If you like the project, do not forget to <b>put star ★</b> or donate:<br>
 
 [![Patron](https://github.com/IvanVorobei/SPPermission/blob/master/Resources/Patron%20Button.svg)](https://patreon.com/ivanvorobei)
 
