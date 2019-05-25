@@ -128,11 +128,10 @@ It’s needed for correct presentation and dismissal of all modal controllers.
 
 ## Sponsors
 
-Support me with a monthly donation and help me continue activities. [[Become a sponsors](https://www.patreon.com/ivanvorobei)]
+Support me with a monthly donation and help me continue activities: [Become a sponsors](https://www.patreon.com/ivanvorobei)
 
-<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/zubarra.jpg" width="100"></a>
-<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/zubarra.jpg" width="100"></a>
-<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/zubarra.jpg" width="100"></a>
+<a href="https://github.com/zubara21/" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/zubara21.jpg" width="100"></a>
+<a href="https://github.com/sparrowganz/" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/sparrowganz.jpg" width="100"></a>
 
 ## My projects
 
