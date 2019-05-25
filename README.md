@@ -130,9 +130,9 @@ It’s needed for correct presentation and dismissal of all modal controllers.
 
 Support me with a monthly donation and help me continue activities. [[Become a sponsors](https://www.patreon.com/ivanvorobei)]
 
-<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/backers/zubarra.jpg" width="100"></a>
-<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/backers/zubarra.jpg" width="100"></a>
-<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/backers/zubarra.jpg" width="100"></a>
+<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/zubarra.jpg" width="100"></a>
+<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/zubarra.jpg" width="100"></a>
+<a href="https://github.com/zubarra/" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/zubarra.jpg" width="100"></a>
 
 ## My projects
 
