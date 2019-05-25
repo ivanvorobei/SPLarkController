@@ -152,7 +152,7 @@ Alert you can find in <a href="https://github.com/IvanVorobei/SPAlert">SPAlert</
 
 ### SPAlert
 
-<p><a href="https://github.com/IvanVorobei/SPAlert" target="_blank">SPAlert</a> is <b>popup from Apple Music & Feedback in AppStore</b>. Contains `Done` & `Heart` presets. `Done` preset present with animation. I clone Apple's alerts as much as possible.
+<p><a href="https://github.com/IvanVorobei/SPAlert" target="_blank">SPAlert</a> is <b>popup from Apple Music & Feedback in AppStore</b>. Contains </p>`Done` & `Heart` presets. `Done`<p> preset present with animation. I clone Apple's alerts as much as possible.
 <br><br>
 You can download example <a href="https://itunes.apple.com/app/id1446635818">Debts - Spending tracker</a> app from AppStore. If you want to <b>buy source code</b> of app in preview, please, go to <a href="https://xcode-shop.com">xcode-shop.com</a>.</p>
 
