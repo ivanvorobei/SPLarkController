@@ -33,7 +33,7 @@ See project's backers in [Sponsors](https://github.com/ivanvorobei/SPStorkContro
 
 ## Requirements
 
-Swift 4.2 & **5.0**. Ready for use on iOS 10+
+Swift `4.2` & `5.0`. Ready for use on iOS 10+
 
 ## Installation
 
