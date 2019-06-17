@@ -5,11 +5,13 @@
 ### About
 Transition between controllers to top. Make **settings screen** for application. You can add **buttons and switches**. The amount cells is not limited. You can start using project with just two lines of code and easy customisation. For implement settings as in preiew, see section [Settings Controller](https://github.com/ivanvorobei/SPLarkController#settings-controller).
 
-You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore. If you want to **buy source code** of app this app, please, go to [xcode-shop.com](https://xcode-shop.com)
-
-If you like the project, do not forget to `put star ★` or visit my store for iOS developers:
+You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore. For **buy source code** of app in preview, go to:
 
 [![xcode-shop.com](https://github.com/ivanvorobei/SPPermission/blob/master/Resources/Buttons/Xcode%20Shop%20Button%20-%201.svg)](https://xcode-shop.com)
+
+If you like the project, do not forget to `put star ★` or follow me in twitter:
+
+[![https://twitter.com/varabeis](https://github.com/ivanvorobei/SPPermission/blob/master/Resources/Buttons/Twitter-2.svg)](https://twitter.com/varabeis)
 
 See project's backers in [Sponsors](https://github.com/ivanvorobei/SPLarkController#sponsors) section.
 
@@ -171,4 +173,8 @@ You can buy example Dialog & Dinamic animations in [xcode-shop.com](https://xcod
 
 ## Contact
 
-If you need any application or UI to be developed, message me at [telegram](https://t.me/ivanvorobei) or [twitter](https://twitter.com/varabeis). I develop iOS apps and designs. I use `swift` for development. You can see my apps [in AppStore](https://itunes.apple.com/developer/id1446635817).
+If you need any application or UI to be developed, contact me via [telegram](https://t.me/ivanvorobei). I develop iOS apps and designs. I use `swift`. You can see my apps [in AppStore](https://itunes.apple.com/developer/id1446635817).
+
+If you want to know more about Xcode, UIKit & Design, follow me on twitter:
+
+[![https://twitter.com/varabeis](https://github.com/ivanvorobei/SPPermission/blob/master/Resources/Buttons/Twitter-2.svg)](https://twitter.com/varabeis)
