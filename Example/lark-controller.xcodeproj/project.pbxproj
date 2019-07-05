@@ -1,0 +1,1225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F462010722CFD397003A4330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462010622CFD397003A4330 /* AppDelegate.swift */; };
+		F462010B22CFD397003A4330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462010A22CFD397003A4330 /* ViewController.swift */; };
+		F462011022CFD399003A4330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F462010F22CFD399003A4330 /* Assets.xcassets */; };
+		F462011322CFD399003A4330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F462011122CFD399003A4330 /* LaunchScreen.storyboard */; };
+		F462012822CFD3DD003A4330 /* SPLarkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462011C22CFD3DD003A4330 /* SPLarkController.swift */; };
+		F462012922CFD3DD003A4330 /* SPLarkSettingsCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462011E22CFD3DD003A4330 /* SPLarkSettingsCloseButton.swift */; };
+		F462012A22CFD3DD003A4330 /* SPLarkSettingsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462011F22CFD3DD003A4330 /* SPLarkSettingsCollectionViewCell.swift */; };
+		F462012B22CFD3DD003A4330 /* SPLarkSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462012022CFD3DD003A4330 /* SPLarkSettingsController.swift */; };
+		F462012C22CFD3DD003A4330 /* SPLarkSettingsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462012122CFD3DD003A4330 /* SPLarkSettingsCollectionView.swift */; };
+		F462012D22CFD3DD003A4330 /* SPLarkPresentingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462012322CFD3DD003A4330 /* SPLarkPresentingAnimationController.swift */; };
+		F462012E22CFD3DD003A4330 /* SPLarkPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462012422CFD3DD003A4330 /* SPLarkPresentationController.swift */; };
+		F462012F22CFD3DD003A4330 /* SPLarkDismissingAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462012522CFD3DD003A4330 /* SPLarkDismissingAnimationController.swift */; };
+		F462013022CFD3DD003A4330 /* SPLarkTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462012622CFD3DD003A4330 /* SPLarkTransitioningDelegate.swift */; };
+		F462013122CFD3DD003A4330 /* SPLarkControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462012722CFD3DD003A4330 /* SPLarkControllerExtenshion.swift */; };
+		F46201D522CFD8F7003A4330 /* SPVibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462013422CFD8F7003A4330 /* SPVibration.swift */; };
+		F46201D622CFD8F7003A4330 /* SPPromoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462013822CFD8F7003A4330 /* SPPromoTableViewCell.swift */; };
+		F46201D722CFD8F7003A4330 /* SPFormButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462013A22CFD8F7003A4330 /* SPFormButtonTableViewCell.swift */; };
+		F46201D822CFD8F7003A4330 /* SPFormMailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462013B22CFD8F7003A4330 /* SPFormMailTableViewCell.swift */; };
+		F46201D922CFD8F7003A4330 /* SPFormLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462013C22CFD8F7003A4330 /* SPFormLabelTableViewCell.swift */; };
+		F46201DA22CFD8F7003A4330 /* SPFormTextFiledTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462013D22CFD8F7003A4330 /* SPFormTextFiledTableViewCell.swift */; };
+		F46201DB22CFD8F7003A4330 /* SPFormFeaturedTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462013E22CFD8F7003A4330 /* SPFormFeaturedTitleTableViewCell.swift */; };
+		F46201DC22CFD8F7003A4330 /* SPFormTextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462013F22CFD8F7003A4330 /* SPFormTextInputTableViewCell.swift */; };
+		F46201DD22CFD8F7003A4330 /* SPFormTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014022CFD8F7003A4330 /* SPFormTextTableViewCell.swift */; };
+		F46201DE22CFD8F7003A4330 /* SPMengTransformTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014122CFD8F7003A4330 /* SPMengTransformTableViewCell.swift */; };
+		F46201DF22CFD8F7003A4330 /* SPImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014222CFD8F7003A4330 /* SPImageTableViewCell.swift */; };
+		F46201E022CFD8F7003A4330 /* SPProposeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014322CFD8F7003A4330 /* SPProposeTableViewCell.swift */; };
+		F46201E122CFD8F7003A4330 /* SPBaseContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014422CFD8F7003A4330 /* SPBaseContentTableViewCell.swift */; };
+		F46201E222CFD8F7003A4330 /* SPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014522CFD8F7003A4330 /* SPTableViewCell.swift */; };
+		F46201E322CFD8F7003A4330 /* SPTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014722CFD8F7003A4330 /* SPTableView.swift */; };
+		F46201E422CFD8F7003A4330 /* SPPlayCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014922CFD8F7003A4330 /* SPPlayCircleButton.swift */; };
+		F46201E522CFD8F7003A4330 /* SPSocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014A22CFD8F7003A4330 /* SPSocialButton.swift */; };
+		F46201E622CFD8F7003A4330 /* SPAppleMusicSectionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014B22CFD8F7003A4330 /* SPAppleMusicSectionButtonsView.swift */; };
+		F46201E722CFD8F7003A4330 /* SPDotsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014C22CFD8F7003A4330 /* SPDotsButton.swift */; };
+		F46201E822CFD8F7003A4330 /* SPSystemIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014D22CFD8F7003A4330 /* SPSystemIconButton.swift */; };
+		F46201E922CFD8F7003A4330 /* SPNativeLargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014E22CFD8F7003A4330 /* SPNativeLargeButton.swift */; };
+		F46201EA22CFD8F7003A4330 /* SPDownloadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462014F22CFD8F7003A4330 /* SPDownloadingButton.swift */; };
+		F46201EB22CFD8F7003A4330 /* SPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015022CFD8F7003A4330 /* SPButton.swift */; };
+		F46201EC22CFD8F7003A4330 /* SPCircleCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015122CFD8F7003A4330 /* SPCircleCloseButton.swift */; };
+		F46201ED22CFD8F7003A4330 /* SPAppStoreActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015222CFD8F7003A4330 /* SPAppStoreActionButton.swift */; };
+		F46201EE22CFD8F7003A4330 /* SPAppleMusicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015322CFD8F7003A4330 /* SPAppleMusicButton.swift */; };
+		F46201EF22CFD8F7003A4330 /* SPImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015522CFD8F7003A4330 /* SPImageView.swift */; };
+		F46201F022CFD8F7003A4330 /* SPScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015622CFD8F7003A4330 /* SPScrollView.swift */; };
+		F46201F122CFD8F7003A4330 /* SPFooterButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015722CFD8F7003A4330 /* SPFooterButtonsView.swift */; };
+		F46201F222CFD8F7003A4330 /* SPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015822CFD8F7003A4330 /* SPTextField.swift */; };
+		F46201F322CFD8F7003A4330 /* SPTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015922CFD8F7003A4330 /* SPTextView.swift */; };
+		F46201F422CFD8F7003A4330 /* SPGradeBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015A22CFD8F7003A4330 /* SPGradeBlurView.swift */; };
+		F46201F522CFD8F7003A4330 /* SPDownloadingUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015B22CFD8F7003A4330 /* SPDownloadingUIImageView.swift */; };
+		F46201F622CFD8F7003A4330 /* SPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015C22CFD8F7003A4330 /* SPView.swift */; };
+		F46201F722CFD8F7003A4330 /* SPGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015D22CFD8F7003A4330 /* SPGradientView.swift */; };
+		F46201F822CFD8F7003A4330 /* SPSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015E22CFD8F7003A4330 /* SPSeparatorView.swift */; };
+		F46201F922CFD8F7003A4330 /* SPVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462015F22CFD8F7003A4330 /* SPVideoPlayer.swift */; };
+		F46201FA22CFD8F7003A4330 /* SPBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016022CFD8F7003A4330 /* SPBlurView.swift */; };
+		F46201FB22CFD8F7003A4330 /* SPEmptyLabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016222CFD8F7003A4330 /* SPEmptyLabelsView.swift */; };
+		F46201FC22CFD8F7003A4330 /* SPSectionLabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016322CFD8F7003A4330 /* SPSectionLabelsView.swift */; };
+		F46201FD22CFD8F7003A4330 /* SPLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016422CFD8F7003A4330 /* SPLabel.swift */; };
+		F46201FE22CFD8F7003A4330 /* SPCenterLabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016522CFD8F7003A4330 /* SPCenterLabelsView.swift */; };
+		F46201FF22CFD8F7003A4330 /* SPAudioIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016722CFD8F7003A4330 /* SPAudioIconView.swift */; };
+		F462020022CFD8F7003A4330 /* SPSocialIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016822CFD8F7003A4330 /* SPSocialIconView.swift */; };
+		F462020122CFD8F7003A4330 /* SPSystemIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016922CFD8F7003A4330 /* SPSystemIconView.swift */; };
+		F462020222CFD8F7003A4330 /* SPGolubevIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016A22CFD8F7003A4330 /* SPGolubevIconView.swift */; };
+		F462020322CFD8F7003A4330 /* SPProposeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016C22CFD8F7003A4330 /* SPProposeController.swift */; };
+		F462020422CFD8F7003A4330 /* SPNativeTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016D22CFD8F7003A4330 /* SPNativeTableController.swift */; };
+		F462020522CFD8F7003A4330 /* SPTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016E22CFD8F7003A4330 /* SPTableController.swift */; };
+		F462020622CFD8F7003A4330 /* SPStatusBarManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462016F22CFD8F7003A4330 /* SPStatusBarManagerController.swift */; };
+		F462020722CFD8F7003A4330 /* SPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462017022CFD8F7003A4330 /* SPController.swift */; };
+		F462020822CFD8F7003A4330 /* SPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462017322CFD8F7003A4330 /* SPCollectionViewCell.swift */; };
+		F462020922CFD8F7003A4330 /* SPMengTransformCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462017422CFD8F7003A4330 /* SPMengTransformCollectionViewCell.swift */; };
+		F462020A22CFD8F7003A4330 /* SPImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462017522CFD8F7003A4330 /* SPImageCollectionViewCell.swift */; };
+		F462020B22CFD8F7003A4330 /* SPCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462017722CFD8F7003A4330 /* SPCollectionViewLayout.swift */; };
+		F462020C22CFD8F7003A4330 /* SPMengTransformCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462017922CFD8F7003A4330 /* SPMengTransformCollectionView.swift */; };
+		F462020D22CFD8F7003A4330 /* SPCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462017A22CFD8F7003A4330 /* SPCollectionView.swift */; };
+		F462020E22CFD8F7003A4330 /* SPImagesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462017B22CFD8F7003A4330 /* SPImagesCollectionView.swift */; };
+		F462020F22CFD8F7003A4330 /* SPPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462017C22CFD8F7003A4330 /* SPPageCollectionView.swift */; };
+		F462021022CFD8F7003A4330 /* SPTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462017E22CFD8F7003A4330 /* SPTypes.swift */; };
+		F462021122CFD8F7003A4330 /* SPLocale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018022CFD8F7003A4330 /* SPLocale.swift */; };
+		F462021222CFD8F7003A4330 /* SPUIAlertControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018222CFD8F7003A4330 /* SPUIAlertControllerExtenshion.swift */; };
+		F462021322CFD8F7003A4330 /* SPUITableViewCellExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018322CFD8F7003A4330 /* SPUITableViewCellExtenshion.swift */; };
+		F462021422CFD8F7003A4330 /* SPUITextFieldExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018422CFD8F7003A4330 /* SPUITextFieldExtenshion.swift */; };
+		F462021522CFD8F7003A4330 /* SPUIFontExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018522CFD8F7003A4330 /* SPUIFontExtenshion.swift */; };
+		F462021622CFD8F7003A4330 /* SPUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018622CFD8F7003A4330 /* SPUIImageExtension.swift */; };
+		F462021722CFD8F7003A4330 /* SPUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018722CFD8F7003A4330 /* SPUITableView.swift */; };
+		F462021822CFD8F7003A4330 /* SPUIViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018822CFD8F7003A4330 /* SPUIViewExtenshion.swift */; };
+		F462021922CFD8F7003A4330 /* SPArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018922CFD8F7003A4330 /* SPArrayExtension.swift */; };
+		F462021A22CFD8F7003A4330 /* SPUserDefaultsExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018A22CFD8F7003A4330 /* SPUserDefaultsExtenshion.swift */; };
+		F462021B22CFD8F7003A4330 /* SPUIViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018B22CFD8F7003A4330 /* SPUIViewControllerExtenshion.swift */; };
+		F462021C22CFD8F7003A4330 /* SPStringExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018C22CFD8F7003A4330 /* SPStringExtenshion.swift */; };
+		F462021D22CFD8F7003A4330 /* SPStrideableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018D22CFD8F7003A4330 /* SPStrideableExtension.swift */; };
+		F462021E22CFD8F7003A4330 /* SPUIVisualEffectViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018E22CFD8F7003A4330 /* SPUIVisualEffectViewExtenshion.swift */; };
+		F462021F22CFD8F7003A4330 /* SPUICollectionViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462018F22CFD8F7003A4330 /* SPUICollectionViewExtenshion.swift */; };
+		F462022022CFD8F7003A4330 /* SPTextFieldExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019022CFD8F7003A4330 /* SPTextFieldExtenshion.swift */; };
+		F462022122CFD8F7003A4330 /* SPUITabBarControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019122CFD8F7003A4330 /* SPUITabBarControllerExtenshion.swift */; };
+		F462022222CFD8F7003A4330 /* SPUINavigationControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019222CFD8F7003A4330 /* SPUINavigationControllerExtenshion.swift */; };
+		F462022322CFD8F7003A4330 /* SPCGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019322CFD8F7003A4330 /* SPCGRectExtension.swift */; };
+		F462022422CFD8F7003A4330 /* SPUILabelExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019422CFD8F7003A4330 /* SPUILabelExtenshion.swift */; };
+		F462022522CFD8F7003A4330 /* SPDateExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019522CFD8F7003A4330 /* SPDateExtenshion.swift */; };
+		F462022622CFD8F7003A4330 /* SPCGSizeExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019622CFD8F7003A4330 /* SPCGSizeExtenshion.swift */; };
+		F462022722CFD8F7003A4330 /* SPUIImageViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019722CFD8F7003A4330 /* SPUIImageViewExtenshion.swift */; };
+		F462022822CFD8F7003A4330 /* SPUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019822CFD8F7003A4330 /* SPUIColorExtension.swift */; };
+		F462022922CFD8F7003A4330 /* SPUIButtonExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019922CFD8F7003A4330 /* SPUIButtonExtenshion.swift */; };
+		F462022A22CFD8F7003A4330 /* SPAppOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019B22CFD8F7003A4330 /* SPAppOpener.swift */; };
+		F462022B22CFD8F7003A4330 /* SPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019C22CFD8F7003A4330 /* SPApp.swift */; };
+		F462022C22CFD8F7003A4330 /* SPAppBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019D22CFD8F7003A4330 /* SPAppBadge.swift */; };
+		F462022D22CFD8F7003A4330 /* SPAppLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462019E22CFD8F7003A4330 /* SPAppLaunch.swift */; };
+		F462022E22CFD8F7003A4330 /* SPNativeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201A022CFD8F7003A4330 /* SPNativeColors.swift */; };
+		F462022F22CFD8F7003A4330 /* SPConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201A222CFD8F7003A4330 /* SPConstraints.swift */; };
+		F462023022CFD8F7003A4330 /* SPLocalAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201A422CFD8F7003A4330 /* SPLocalAuthentication.swift */; };
+		F462023122CFD8F7003A4330 /* SPAppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201A622CFD8F7003A4330 /* SPAppStore.swift */; };
+		F462023222CFD8F7003A4330 /* SPLocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201A822CFD8F7003A4330 /* SPLocalNotification.swift */; };
+		F462023322CFD8F7003A4330 /* SPMail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201AA22CFD8F7003A4330 /* SPMail.swift */; };
+		F462023422CFD8F7003A4330 /* SPLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201AC22CFD8F7003A4330 /* SPLayout.swift */; };
+		F462023522CFD8F7003A4330 /* SPShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201AE22CFD8F7003A4330 /* SPShadow.swift */; };
+		F462023622CFD8F7003A4330 /* SPShadowDeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201AF22CFD8F7003A4330 /* SPShadowDeep.swift */; };
+		F462023722CFD8F7003A4330 /* SPAnimationUpward.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201B122CFD8F7003A4330 /* SPAnimationUpward.swift */; };
+		F462023822CFD8F7003A4330 /* SPAnimationSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201B222CFD8F7003A4330 /* SPAnimationSpring.swift */; };
+		F462023922CFD8F7003A4330 /* SPAnimationAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201B322CFD8F7003A4330 /* SPAnimationAlpha.swift */; };
+		F462023A22CFD8F7003A4330 /* SPAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201B422CFD8F7003A4330 /* SPAnimation.swift */; };
+		F462023B22CFD8F7003A4330 /* SPDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201B622CFD8F7003A4330 /* SPDownloader.swift */; };
+		F462023C22CFD8F7003A4330 /* SPBufer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201B822CFD8F7003A4330 /* SPBufer.swift */; };
+		F462023D22CFD8F7003A4330 /* SPTwitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201BB22CFD8F7003A4330 /* SPTwitter.swift */; };
+		F462023E22CFD8F7003A4330 /* SPViber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201BD22CFD8F7003A4330 /* SPViber.swift */; };
+		F462023F22CFD8F7003A4330 /* SPTelegram.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201BF22CFD8F7003A4330 /* SPTelegram.swift */; };
+		F462024022CFD8F7003A4330 /* SPInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201C122CFD8F7003A4330 /* SPInstagram.swift */; };
+		F462024122CFD8F7003A4330 /* SPWhatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201C322CFD8F7003A4330 /* SPWhatsApp.swift */; };
+		F462024222CFD8F7003A4330 /* SPAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201C522CFD8F7003A4330 /* SPAudio.swift */; };
+		F462024322CFD8F7003A4330 /* SPAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201C622CFD8F7003A4330 /* SPAudioPlayer.swift */; };
+		F462024422CFD8F7003A4330 /* SPCodeAudioIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201C822CFD8F7003A4330 /* SPCodeAudioIconPack.swift */; };
+		F462024522CFD8F7003A4330 /* SPCodeSocialIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201C922CFD8F7003A4330 /* SPCodeSocialIconPack.swift */; };
+		F462024622CFD8F7003A4330 /* SPCodeSystemIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201CA22CFD8F7003A4330 /* SPCodeSystemIconPack.swift */; };
+		F462024722CFD8F7003A4330 /* SPCodeDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201CB22CFD8F7003A4330 /* SPCodeDraw.swift */; };
+		F462024822CFD8F7003A4330 /* SPGolubevGolubevIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201CC22CFD8F7003A4330 /* SPGolubevGolubevIconPack.swift */; };
+		F462024922CFD8F7003A4330 /* SPDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201CE22CFD8F7003A4330 /* SPDevice.swift */; };
+		F462024A22CFD8F7003A4330 /* SPRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201D022CFD8F7003A4330 /* SPRandom.swift */; };
+		F462024B22CFD8F7003A4330 /* SPDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201D222CFD8F7003A4330 /* SPDelay.swift */; };
+		F462024C22CFD8F7003A4330 /* SPShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201D422CFD8F7003A4330 /* SPShare.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F462010322CFD397003A4330 /* lark-controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lark-controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F462010622CFD397003A4330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F462010A22CFD397003A4330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F462010F22CFD399003A4330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F462011222CFD399003A4330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F462011422CFD399003A4330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F462011C22CFD3DD003A4330 /* SPLarkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLarkController.swift; sourceTree = "<group>"; };
+		F462011E22CFD3DD003A4330 /* SPLarkSettingsCloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLarkSettingsCloseButton.swift; sourceTree = "<group>"; };
+		F462011F22CFD3DD003A4330 /* SPLarkSettingsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLarkSettingsCollectionViewCell.swift; sourceTree = "<group>"; };
+		F462012022CFD3DD003A4330 /* SPLarkSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLarkSettingsController.swift; sourceTree = "<group>"; };
+		F462012122CFD3DD003A4330 /* SPLarkSettingsCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLarkSettingsCollectionView.swift; sourceTree = "<group>"; };
+		F462012322CFD3DD003A4330 /* SPLarkPresentingAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLarkPresentingAnimationController.swift; sourceTree = "<group>"; };
+		F462012422CFD3DD003A4330 /* SPLarkPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLarkPresentationController.swift; sourceTree = "<group>"; };
+		F462012522CFD3DD003A4330 /* SPLarkDismissingAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLarkDismissingAnimationController.swift; sourceTree = "<group>"; };
+		F462012622CFD3DD003A4330 /* SPLarkTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLarkTransitioningDelegate.swift; sourceTree = "<group>"; };
+		F462012722CFD3DD003A4330 /* SPLarkControllerExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLarkControllerExtenshion.swift; sourceTree = "<group>"; };
+		F462013422CFD8F7003A4330 /* SPVibration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPVibration.swift; sourceTree = "<group>"; };
+		F462013822CFD8F7003A4330 /* SPPromoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPromoTableViewCell.swift; sourceTree = "<group>"; };
+		F462013A22CFD8F7003A4330 /* SPFormButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPFormButtonTableViewCell.swift; sourceTree = "<group>"; };
+		F462013B22CFD8F7003A4330 /* SPFormMailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPFormMailTableViewCell.swift; sourceTree = "<group>"; };
+		F462013C22CFD8F7003A4330 /* SPFormLabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPFormLabelTableViewCell.swift; sourceTree = "<group>"; };
+		F462013D22CFD8F7003A4330 /* SPFormTextFiledTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPFormTextFiledTableViewCell.swift; sourceTree = "<group>"; };
+		F462013E22CFD8F7003A4330 /* SPFormFeaturedTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPFormFeaturedTitleTableViewCell.swift; sourceTree = "<group>"; };
+		F462013F22CFD8F7003A4330 /* SPFormTextInputTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPFormTextInputTableViewCell.swift; sourceTree = "<group>"; };
+		F462014022CFD8F7003A4330 /* SPFormTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPFormTextTableViewCell.swift; sourceTree = "<group>"; };
+		F462014122CFD8F7003A4330 /* SPMengTransformTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPMengTransformTableViewCell.swift; sourceTree = "<group>"; };
+		F462014222CFD8F7003A4330 /* SPImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPImageTableViewCell.swift; sourceTree = "<group>"; };
+		F462014322CFD8F7003A4330 /* SPProposeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPProposeTableViewCell.swift; sourceTree = "<group>"; };
+		F462014422CFD8F7003A4330 /* SPBaseContentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBaseContentTableViewCell.swift; sourceTree = "<group>"; };
+		F462014522CFD8F7003A4330 /* SPTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTableViewCell.swift; sourceTree = "<group>"; };
+		F462014722CFD8F7003A4330 /* SPTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTableView.swift; sourceTree = "<group>"; };
+		F462014922CFD8F7003A4330 /* SPPlayCircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPlayCircleButton.swift; sourceTree = "<group>"; };
+		F462014A22CFD8F7003A4330 /* SPSocialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSocialButton.swift; sourceTree = "<group>"; };
+		F462014B22CFD8F7003A4330 /* SPAppleMusicSectionButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAppleMusicSectionButtonsView.swift; sourceTree = "<group>"; };
+		F462014C22CFD8F7003A4330 /* SPDotsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDotsButton.swift; sourceTree = "<group>"; };
+		F462014D22CFD8F7003A4330 /* SPSystemIconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSystemIconButton.swift; sourceTree = "<group>"; };
+		F462014E22CFD8F7003A4330 /* SPNativeLargeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPNativeLargeButton.swift; sourceTree = "<group>"; };
+		F462014F22CFD8F7003A4330 /* SPDownloadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDownloadingButton.swift; sourceTree = "<group>"; };
+		F462015022CFD8F7003A4330 /* SPButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPButton.swift; sourceTree = "<group>"; };
+		F462015122CFD8F7003A4330 /* SPCircleCloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCircleCloseButton.swift; sourceTree = "<group>"; };
+		F462015222CFD8F7003A4330 /* SPAppStoreActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAppStoreActionButton.swift; sourceTree = "<group>"; };
+		F462015322CFD8F7003A4330 /* SPAppleMusicButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAppleMusicButton.swift; sourceTree = "<group>"; };
+		F462015522CFD8F7003A4330 /* SPImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPImageView.swift; sourceTree = "<group>"; };
+		F462015622CFD8F7003A4330 /* SPScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPScrollView.swift; sourceTree = "<group>"; };
+		F462015722CFD8F7003A4330 /* SPFooterButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPFooterButtonsView.swift; sourceTree = "<group>"; };
+		F462015822CFD8F7003A4330 /* SPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTextField.swift; sourceTree = "<group>"; };
+		F462015922CFD8F7003A4330 /* SPTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTextView.swift; sourceTree = "<group>"; };
+		F462015A22CFD8F7003A4330 /* SPGradeBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGradeBlurView.swift; sourceTree = "<group>"; };
+		F462015B22CFD8F7003A4330 /* SPDownloadingUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDownloadingUIImageView.swift; sourceTree = "<group>"; };
+		F462015C22CFD8F7003A4330 /* SPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPView.swift; sourceTree = "<group>"; };
+		F462015D22CFD8F7003A4330 /* SPGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGradientView.swift; sourceTree = "<group>"; };
+		F462015E22CFD8F7003A4330 /* SPSeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSeparatorView.swift; sourceTree = "<group>"; };
+		F462015F22CFD8F7003A4330 /* SPVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPVideoPlayer.swift; sourceTree = "<group>"; };
+		F462016022CFD8F7003A4330 /* SPBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBlurView.swift; sourceTree = "<group>"; };
+		F462016222CFD8F7003A4330 /* SPEmptyLabelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPEmptyLabelsView.swift; sourceTree = "<group>"; };
+		F462016322CFD8F7003A4330 /* SPSectionLabelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSectionLabelsView.swift; sourceTree = "<group>"; };
+		F462016422CFD8F7003A4330 /* SPLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLabel.swift; sourceTree = "<group>"; };
+		F462016522CFD8F7003A4330 /* SPCenterLabelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCenterLabelsView.swift; sourceTree = "<group>"; };
+		F462016722CFD8F7003A4330 /* SPAudioIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAudioIconView.swift; sourceTree = "<group>"; };
+		F462016822CFD8F7003A4330 /* SPSocialIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSocialIconView.swift; sourceTree = "<group>"; };
+		F462016922CFD8F7003A4330 /* SPSystemIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSystemIconView.swift; sourceTree = "<group>"; };
+		F462016A22CFD8F7003A4330 /* SPGolubevIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGolubevIconView.swift; sourceTree = "<group>"; };
+		F462016C22CFD8F7003A4330 /* SPProposeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPProposeController.swift; sourceTree = "<group>"; };
+		F462016D22CFD8F7003A4330 /* SPNativeTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPNativeTableController.swift; sourceTree = "<group>"; };
+		F462016E22CFD8F7003A4330 /* SPTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTableController.swift; sourceTree = "<group>"; };
+		F462016F22CFD8F7003A4330 /* SPStatusBarManagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStatusBarManagerController.swift; sourceTree = "<group>"; };
+		F462017022CFD8F7003A4330 /* SPController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPController.swift; sourceTree = "<group>"; };
+		F462017322CFD8F7003A4330 /* SPCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCollectionViewCell.swift; sourceTree = "<group>"; };
+		F462017422CFD8F7003A4330 /* SPMengTransformCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPMengTransformCollectionViewCell.swift; sourceTree = "<group>"; };
+		F462017522CFD8F7003A4330 /* SPImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		F462017722CFD8F7003A4330 /* SPCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCollectionViewLayout.swift; sourceTree = "<group>"; };
+		F462017922CFD8F7003A4330 /* SPMengTransformCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPMengTransformCollectionView.swift; sourceTree = "<group>"; };
+		F462017A22CFD8F7003A4330 /* SPCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCollectionView.swift; sourceTree = "<group>"; };
+		F462017B22CFD8F7003A4330 /* SPImagesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPImagesCollectionView.swift; sourceTree = "<group>"; };
+		F462017C22CFD8F7003A4330 /* SPPageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPageCollectionView.swift; sourceTree = "<group>"; };
+		F462017E22CFD8F7003A4330 /* SPTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTypes.swift; sourceTree = "<group>"; };
+		F462018022CFD8F7003A4330 /* SPLocale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLocale.swift; sourceTree = "<group>"; };
+		F462018222CFD8F7003A4330 /* SPUIAlertControllerExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIAlertControllerExtenshion.swift; sourceTree = "<group>"; };
+		F462018322CFD8F7003A4330 /* SPUITableViewCellExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUITableViewCellExtenshion.swift; sourceTree = "<group>"; };
+		F462018422CFD8F7003A4330 /* SPUITextFieldExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUITextFieldExtenshion.swift; sourceTree = "<group>"; };
+		F462018522CFD8F7003A4330 /* SPUIFontExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIFontExtenshion.swift; sourceTree = "<group>"; };
+		F462018622CFD8F7003A4330 /* SPUIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIImageExtension.swift; sourceTree = "<group>"; };
+		F462018722CFD8F7003A4330 /* SPUITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUITableView.swift; sourceTree = "<group>"; };
+		F462018822CFD8F7003A4330 /* SPUIViewExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIViewExtenshion.swift; sourceTree = "<group>"; };
+		F462018922CFD8F7003A4330 /* SPArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPArrayExtension.swift; sourceTree = "<group>"; };
+		F462018A22CFD8F7003A4330 /* SPUserDefaultsExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUserDefaultsExtenshion.swift; sourceTree = "<group>"; };
+		F462018B22CFD8F7003A4330 /* SPUIViewControllerExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIViewControllerExtenshion.swift; sourceTree = "<group>"; };
+		F462018C22CFD8F7003A4330 /* SPStringExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStringExtenshion.swift; sourceTree = "<group>"; };
+		F462018D22CFD8F7003A4330 /* SPStrideableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStrideableExtension.swift; sourceTree = "<group>"; };
+		F462018E22CFD8F7003A4330 /* SPUIVisualEffectViewExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIVisualEffectViewExtenshion.swift; sourceTree = "<group>"; };
+		F462018F22CFD8F7003A4330 /* SPUICollectionViewExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUICollectionViewExtenshion.swift; sourceTree = "<group>"; };
+		F462019022CFD8F7003A4330 /* SPTextFieldExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTextFieldExtenshion.swift; sourceTree = "<group>"; };
+		F462019122CFD8F7003A4330 /* SPUITabBarControllerExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUITabBarControllerExtenshion.swift; sourceTree = "<group>"; };
+		F462019222CFD8F7003A4330 /* SPUINavigationControllerExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUINavigationControllerExtenshion.swift; sourceTree = "<group>"; };
+		F462019322CFD8F7003A4330 /* SPCGRectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCGRectExtension.swift; sourceTree = "<group>"; };
+		F462019422CFD8F7003A4330 /* SPUILabelExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUILabelExtenshion.swift; sourceTree = "<group>"; };
+		F462019522CFD8F7003A4330 /* SPDateExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDateExtenshion.swift; sourceTree = "<group>"; };
+		F462019622CFD8F7003A4330 /* SPCGSizeExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCGSizeExtenshion.swift; sourceTree = "<group>"; };
+		F462019722CFD8F7003A4330 /* SPUIImageViewExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIImageViewExtenshion.swift; sourceTree = "<group>"; };
+		F462019822CFD8F7003A4330 /* SPUIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIColorExtension.swift; sourceTree = "<group>"; };
+		F462019922CFD8F7003A4330 /* SPUIButtonExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIButtonExtenshion.swift; sourceTree = "<group>"; };
+		F462019B22CFD8F7003A4330 /* SPAppOpener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAppOpener.swift; sourceTree = "<group>"; };
+		F462019C22CFD8F7003A4330 /* SPApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPApp.swift; sourceTree = "<group>"; };
+		F462019D22CFD8F7003A4330 /* SPAppBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAppBadge.swift; sourceTree = "<group>"; };
+		F462019E22CFD8F7003A4330 /* SPAppLaunch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAppLaunch.swift; sourceTree = "<group>"; };
+		F46201A022CFD8F7003A4330 /* SPNativeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPNativeColors.swift; sourceTree = "<group>"; };
+		F46201A222CFD8F7003A4330 /* SPConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPConstraints.swift; sourceTree = "<group>"; };
+		F46201A422CFD8F7003A4330 /* SPLocalAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLocalAuthentication.swift; sourceTree = "<group>"; };
+		F46201A622CFD8F7003A4330 /* SPAppStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAppStore.swift; sourceTree = "<group>"; };
+		F46201A822CFD8F7003A4330 /* SPLocalNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLocalNotification.swift; sourceTree = "<group>"; };
+		F46201AA22CFD8F7003A4330 /* SPMail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPMail.swift; sourceTree = "<group>"; };
+		F46201AC22CFD8F7003A4330 /* SPLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLayout.swift; sourceTree = "<group>"; };
+		F46201AE22CFD8F7003A4330 /* SPShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPShadow.swift; sourceTree = "<group>"; };
+		F46201AF22CFD8F7003A4330 /* SPShadowDeep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPShadowDeep.swift; sourceTree = "<group>"; };
+		F46201B122CFD8F7003A4330 /* SPAnimationUpward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimationUpward.swift; sourceTree = "<group>"; };
+		F46201B222CFD8F7003A4330 /* SPAnimationSpring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimationSpring.swift; sourceTree = "<group>"; };
+		F46201B322CFD8F7003A4330 /* SPAnimationAlpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimationAlpha.swift; sourceTree = "<group>"; };
+		F46201B422CFD8F7003A4330 /* SPAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimation.swift; sourceTree = "<group>"; };
+		F46201B622CFD8F7003A4330 /* SPDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDownloader.swift; sourceTree = "<group>"; };
+		F46201B822CFD8F7003A4330 /* SPBufer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBufer.swift; sourceTree = "<group>"; };
+		F46201BB22CFD8F7003A4330 /* SPTwitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTwitter.swift; sourceTree = "<group>"; };
+		F46201BD22CFD8F7003A4330 /* SPViber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPViber.swift; sourceTree = "<group>"; };
+		F46201BF22CFD8F7003A4330 /* SPTelegram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTelegram.swift; sourceTree = "<group>"; };
+		F46201C122CFD8F7003A4330 /* SPInstagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPInstagram.swift; sourceTree = "<group>"; };
+		F46201C322CFD8F7003A4330 /* SPWhatsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPWhatsApp.swift; sourceTree = "<group>"; };
+		F46201C522CFD8F7003A4330 /* SPAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAudio.swift; sourceTree = "<group>"; };
+		F46201C622CFD8F7003A4330 /* SPAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAudioPlayer.swift; sourceTree = "<group>"; };
+		F46201C822CFD8F7003A4330 /* SPCodeAudioIconPack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCodeAudioIconPack.swift; sourceTree = "<group>"; };
+		F46201C922CFD8F7003A4330 /* SPCodeSocialIconPack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCodeSocialIconPack.swift; sourceTree = "<group>"; };
+		F46201CA22CFD8F7003A4330 /* SPCodeSystemIconPack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCodeSystemIconPack.swift; sourceTree = "<group>"; };
+		F46201CB22CFD8F7003A4330 /* SPCodeDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCodeDraw.swift; sourceTree = "<group>"; };
+		F46201CC22CFD8F7003A4330 /* SPGolubevGolubevIconPack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGolubevGolubevIconPack.swift; sourceTree = "<group>"; };
+		F46201CE22CFD8F7003A4330 /* SPDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDevice.swift; sourceTree = "<group>"; };
+		F46201D022CFD8F7003A4330 /* SPRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRandom.swift; sourceTree = "<group>"; };
+		F46201D222CFD8F7003A4330 /* SPDelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDelay.swift; sourceTree = "<group>"; };
+		F46201D422CFD8F7003A4330 /* SPShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPShare.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F462010022CFD397003A4330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F46200FA22CFD397003A4330 = {
+			isa = PBXGroup;
+			children = (
+				F462010522CFD397003A4330 /* lark-controller */,
+				F462010422CFD397003A4330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F462010422CFD397003A4330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F462010322CFD397003A4330 /* lark-controller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F462010522CFD397003A4330 /* lark-controller */ = {
+			isa = PBXGroup;
+			children = (
+				F462011A22CFD3DD003A4330 /* Frameworks */,
+				F462010622CFD397003A4330 /* AppDelegate.swift */,
+				F462010A22CFD397003A4330 /* ViewController.swift */,
+				F462010F22CFD399003A4330 /* Assets.xcassets */,
+				F462011122CFD399003A4330 /* LaunchScreen.storyboard */,
+				F462011422CFD399003A4330 /* Info.plist */,
+			);
+			path = "lark-controller";
+			sourceTree = "<group>";
+		};
+		F462011A22CFD3DD003A4330 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F462013222CFD8F7003A4330 /* SparrowKit */,
+				F462011B22CFD3DD003A4330 /* SPLarkController */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		F462011B22CFD3DD003A4330 /* SPLarkController */ = {
+			isa = PBXGroup;
+			children = (
+				F462011C22CFD3DD003A4330 /* SPLarkController.swift */,
+				F462011D22CFD3DD003A4330 /* SettingsController */,
+				F462012222CFD3DD003A4330 /* TransitioningDelegate */,
+				F462012722CFD3DD003A4330 /* SPLarkControllerExtenshion.swift */,
+			);
+			path = SPLarkController;
+			sourceTree = "<group>";
+		};
+		F462011D22CFD3DD003A4330 /* SettingsController */ = {
+			isa = PBXGroup;
+			children = (
+				F462011E22CFD3DD003A4330 /* SPLarkSettingsCloseButton.swift */,
+				F462011F22CFD3DD003A4330 /* SPLarkSettingsCollectionViewCell.swift */,
+				F462012022CFD3DD003A4330 /* SPLarkSettingsController.swift */,
+				F462012122CFD3DD003A4330 /* SPLarkSettingsCollectionView.swift */,
+			);
+			path = SettingsController;
+			sourceTree = "<group>";
+		};
+		F462012222CFD3DD003A4330 /* TransitioningDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F462012322CFD3DD003A4330 /* SPLarkPresentingAnimationController.swift */,
+				F462012422CFD3DD003A4330 /* SPLarkPresentationController.swift */,
+				F462012522CFD3DD003A4330 /* SPLarkDismissingAnimationController.swift */,
+				F462012622CFD3DD003A4330 /* SPLarkTransitioningDelegate.swift */,
+			);
+			path = TransitioningDelegate;
+			sourceTree = "<group>";
+		};
+		F462013222CFD8F7003A4330 /* SparrowKit */ = {
+			isa = PBXGroup;
+			children = (
+				F462013322CFD8F7003A4330 /* Vibration */,
+				F462013522CFD8F7003A4330 /* UI */,
+				F462017D22CFD8F7003A4330 /* Types */,
+				F462017F22CFD8F7003A4330 /* Locale */,
+				F462018122CFD8F7003A4330 /* Extension */,
+				F462019A22CFD8F7003A4330 /* App */,
+				F462019F22CFD8F7003A4330 /* Native */,
+				F46201A122CFD8F7003A4330 /* Constraints */,
+				F46201A322CFD8F7003A4330 /* Local Authentication */,
+				F46201A522CFD8F7003A4330 /* AppStore */,
+				F46201A722CFD8F7003A4330 /* Notification */,
+				F46201A922CFD8F7003A4330 /* Mail */,
+				F46201AB22CFD8F7003A4330 /* Layout */,
+				F46201AD22CFD8F7003A4330 /* Shadow */,
+				F46201B022CFD8F7003A4330 /* Animation */,
+				F46201B522CFD8F7003A4330 /* Downloader */,
+				F46201B722CFD8F7003A4330 /* Bufer */,
+				F46201B922CFD8F7003A4330 /* Social */,
+				F46201C422CFD8F7003A4330 /* Audio */,
+				F46201C722CFD8F7003A4330 /* Code Draw */,
+				F46201CD22CFD8F7003A4330 /* Device */,
+				F46201CF22CFD8F7003A4330 /* Random */,
+				F46201D122CFD8F7003A4330 /* Delay */,
+				F46201D322CFD8F7003A4330 /* Share */,
+			);
+			path = SparrowKit;
+			sourceTree = "<group>";
+		};
+		F462013322CFD8F7003A4330 /* Vibration */ = {
+			isa = PBXGroup;
+			children = (
+				F462013422CFD8F7003A4330 /* SPVibration.swift */,
+			);
+			path = Vibration;
+			sourceTree = "<group>";
+		};
+		F462013522CFD8F7003A4330 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F462013622CFD8F7003A4330 /* Tables */,
+				F462014822CFD8F7003A4330 /* Buttons */,
+				F462015422CFD8F7003A4330 /* Other */,
+				F462016122CFD8F7003A4330 /* Labels */,
+				F462016622CFD8F7003A4330 /* Code Draw */,
+				F462016B22CFD8F7003A4330 /* Controllers */,
+				F462017122CFD8F7003A4330 /* Collections */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F462013622CFD8F7003A4330 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				F462013722CFD8F7003A4330 /* Cells */,
+				F462014622CFD8F7003A4330 /* Views */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		F462013722CFD8F7003A4330 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F462013822CFD8F7003A4330 /* SPPromoTableViewCell.swift */,
+				F462013922CFD8F7003A4330 /* Form */,
+				F462014122CFD8F7003A4330 /* SPMengTransformTableViewCell.swift */,
+				F462014222CFD8F7003A4330 /* SPImageTableViewCell.swift */,
+				F462014322CFD8F7003A4330 /* SPProposeTableViewCell.swift */,
+				F462014422CFD8F7003A4330 /* SPBaseContentTableViewCell.swift */,
+				F462014522CFD8F7003A4330 /* SPTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F462013922CFD8F7003A4330 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				F462013A22CFD8F7003A4330 /* SPFormButtonTableViewCell.swift */,
+				F462013B22CFD8F7003A4330 /* SPFormMailTableViewCell.swift */,
+				F462013C22CFD8F7003A4330 /* SPFormLabelTableViewCell.swift */,
+				F462013D22CFD8F7003A4330 /* SPFormTextFiledTableViewCell.swift */,
+				F462013E22CFD8F7003A4330 /* SPFormFeaturedTitleTableViewCell.swift */,
+				F462013F22CFD8F7003A4330 /* SPFormTextInputTableViewCell.swift */,
+				F462014022CFD8F7003A4330 /* SPFormTextTableViewCell.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		F462014622CFD8F7003A4330 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F462014722CFD8F7003A4330 /* SPTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F462014822CFD8F7003A4330 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F462014922CFD8F7003A4330 /* SPPlayCircleButton.swift */,
+				F462014A22CFD8F7003A4330 /* SPSocialButton.swift */,
+				F462014B22CFD8F7003A4330 /* SPAppleMusicSectionButtonsView.swift */,
+				F462014C22CFD8F7003A4330 /* SPDotsButton.swift */,
+				F462014D22CFD8F7003A4330 /* SPSystemIconButton.swift */,
+				F462014E22CFD8F7003A4330 /* SPNativeLargeButton.swift */,
+				F462014F22CFD8F7003A4330 /* SPDownloadingButton.swift */,
+				F462015022CFD8F7003A4330 /* SPButton.swift */,
+				F462015122CFD8F7003A4330 /* SPCircleCloseButton.swift */,
+				F462015222CFD8F7003A4330 /* SPAppStoreActionButton.swift */,
+				F462015322CFD8F7003A4330 /* SPAppleMusicButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F462015422CFD8F7003A4330 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F462015522CFD8F7003A4330 /* SPImageView.swift */,
+				F462015622CFD8F7003A4330 /* SPScrollView.swift */,
+				F462015722CFD8F7003A4330 /* SPFooterButtonsView.swift */,
+				F462015822CFD8F7003A4330 /* SPTextField.swift */,
+				F462015922CFD8F7003A4330 /* SPTextView.swift */,
+				F462015A22CFD8F7003A4330 /* SPGradeBlurView.swift */,
+				F462015B22CFD8F7003A4330 /* SPDownloadingUIImageView.swift */,
+				F462015C22CFD8F7003A4330 /* SPView.swift */,
+				F462015D22CFD8F7003A4330 /* SPGradientView.swift */,
+				F462015E22CFD8F7003A4330 /* SPSeparatorView.swift */,
+				F462015F22CFD8F7003A4330 /* SPVideoPlayer.swift */,
+				F462016022CFD8F7003A4330 /* SPBlurView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F462016122CFD8F7003A4330 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				F462016222CFD8F7003A4330 /* SPEmptyLabelsView.swift */,
+				F462016322CFD8F7003A4330 /* SPSectionLabelsView.swift */,
+				F462016422CFD8F7003A4330 /* SPLabel.swift */,
+				F462016522CFD8F7003A4330 /* SPCenterLabelsView.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		F462016622CFD8F7003A4330 /* Code Draw */ = {
+			isa = PBXGroup;
+			children = (
+				F462016722CFD8F7003A4330 /* SPAudioIconView.swift */,
+				F462016822CFD8F7003A4330 /* SPSocialIconView.swift */,
+				F462016922CFD8F7003A4330 /* SPSystemIconView.swift */,
+				F462016A22CFD8F7003A4330 /* SPGolubevIconView.swift */,
+			);
+			path = "Code Draw";
+			sourceTree = "<group>";
+		};
+		F462016B22CFD8F7003A4330 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F462016C22CFD8F7003A4330 /* SPProposeController.swift */,
+				F462016D22CFD8F7003A4330 /* SPNativeTableController.swift */,
+				F462016E22CFD8F7003A4330 /* SPTableController.swift */,
+				F462016F22CFD8F7003A4330 /* SPStatusBarManagerController.swift */,
+				F462017022CFD8F7003A4330 /* SPController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F462017122CFD8F7003A4330 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				F462017222CFD8F7003A4330 /* Cells */,
+				F462017622CFD8F7003A4330 /* Layouts */,
+				F462017822CFD8F7003A4330 /* Views */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		F462017222CFD8F7003A4330 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F462017322CFD8F7003A4330 /* SPCollectionViewCell.swift */,
+				F462017422CFD8F7003A4330 /* SPMengTransformCollectionViewCell.swift */,
+				F462017522CFD8F7003A4330 /* SPImageCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F462017622CFD8F7003A4330 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				F462017722CFD8F7003A4330 /* SPCollectionViewLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		F462017822CFD8F7003A4330 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F462017922CFD8F7003A4330 /* SPMengTransformCollectionView.swift */,
+				F462017A22CFD8F7003A4330 /* SPCollectionView.swift */,
+				F462017B22CFD8F7003A4330 /* SPImagesCollectionView.swift */,
+				F462017C22CFD8F7003A4330 /* SPPageCollectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F462017D22CFD8F7003A4330 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				F462017E22CFD8F7003A4330 /* SPTypes.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		F462017F22CFD8F7003A4330 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				F462018022CFD8F7003A4330 /* SPLocale.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		F462018122CFD8F7003A4330 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F462018222CFD8F7003A4330 /* SPUIAlertControllerExtenshion.swift */,
+				F462018322CFD8F7003A4330 /* SPUITableViewCellExtenshion.swift */,
+				F462018422CFD8F7003A4330 /* SPUITextFieldExtenshion.swift */,
+				F462018522CFD8F7003A4330 /* SPUIFontExtenshion.swift */,
+				F462018622CFD8F7003A4330 /* SPUIImageExtension.swift */,
+				F462018722CFD8F7003A4330 /* SPUITableView.swift */,
+				F462018822CFD8F7003A4330 /* SPUIViewExtenshion.swift */,
+				F462018922CFD8F7003A4330 /* SPArrayExtension.swift */,
+				F462018A22CFD8F7003A4330 /* SPUserDefaultsExtenshion.swift */,
+				F462018B22CFD8F7003A4330 /* SPUIViewControllerExtenshion.swift */,
+				F462018C22CFD8F7003A4330 /* SPStringExtenshion.swift */,
+				F462018D22CFD8F7003A4330 /* SPStrideableExtension.swift */,
+				F462018E22CFD8F7003A4330 /* SPUIVisualEffectViewExtenshion.swift */,
+				F462018F22CFD8F7003A4330 /* SPUICollectionViewExtenshion.swift */,
+				F462019022CFD8F7003A4330 /* SPTextFieldExtenshion.swift */,
+				F462019122CFD8F7003A4330 /* SPUITabBarControllerExtenshion.swift */,
+				F462019222CFD8F7003A4330 /* SPUINavigationControllerExtenshion.swift */,
+				F462019322CFD8F7003A4330 /* SPCGRectExtension.swift */,
+				F462019422CFD8F7003A4330 /* SPUILabelExtenshion.swift */,
+				F462019522CFD8F7003A4330 /* SPDateExtenshion.swift */,
+				F462019622CFD8F7003A4330 /* SPCGSizeExtenshion.swift */,
+				F462019722CFD8F7003A4330 /* SPUIImageViewExtenshion.swift */,
+				F462019822CFD8F7003A4330 /* SPUIColorExtension.swift */,
+				F462019922CFD8F7003A4330 /* SPUIButtonExtenshion.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F462019A22CFD8F7003A4330 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F462019B22CFD8F7003A4330 /* SPAppOpener.swift */,
+				F462019C22CFD8F7003A4330 /* SPApp.swift */,
+				F462019D22CFD8F7003A4330 /* SPAppBadge.swift */,
+				F462019E22CFD8F7003A4330 /* SPAppLaunch.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F462019F22CFD8F7003A4330 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				F46201A022CFD8F7003A4330 /* SPNativeColors.swift */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		F46201A122CFD8F7003A4330 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				F46201A222CFD8F7003A4330 /* SPConstraints.swift */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		F46201A322CFD8F7003A4330 /* Local Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F46201A422CFD8F7003A4330 /* SPLocalAuthentication.swift */,
+			);
+			path = "Local Authentication";
+			sourceTree = "<group>";
+		};
+		F46201A522CFD8F7003A4330 /* AppStore */ = {
+			isa = PBXGroup;
+			children = (
+				F46201A622CFD8F7003A4330 /* SPAppStore.swift */,
+			);
+			path = AppStore;
+			sourceTree = "<group>";
+		};
+		F46201A722CFD8F7003A4330 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				F46201A822CFD8F7003A4330 /* SPLocalNotification.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		F46201A922CFD8F7003A4330 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				F46201AA22CFD8F7003A4330 /* SPMail.swift */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		F46201AB22CFD8F7003A4330 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				F46201AC22CFD8F7003A4330 /* SPLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		F46201AD22CFD8F7003A4330 /* Shadow */ = {
+			isa = PBXGroup;
+			children = (
+				F46201AE22CFD8F7003A4330 /* SPShadow.swift */,
+				F46201AF22CFD8F7003A4330 /* SPShadowDeep.swift */,
+			);
+			path = Shadow;
+			sourceTree = "<group>";
+		};
+		F46201B022CFD8F7003A4330 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F46201B122CFD8F7003A4330 /* SPAnimationUpward.swift */,
+				F46201B222CFD8F7003A4330 /* SPAnimationSpring.swift */,
+				F46201B322CFD8F7003A4330 /* SPAnimationAlpha.swift */,
+				F46201B422CFD8F7003A4330 /* SPAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		F46201B522CFD8F7003A4330 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				F46201B622CFD8F7003A4330 /* SPDownloader.swift */,
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+		F46201B722CFD8F7003A4330 /* Bufer */ = {
+			isa = PBXGroup;
+			children = (
+				F46201B822CFD8F7003A4330 /* SPBufer.swift */,
+			);
+			path = Bufer;
+			sourceTree = "<group>";
+		};
+		F46201B922CFD8F7003A4330 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				F46201BA22CFD8F7003A4330 /* Twitter */,
+				F46201BC22CFD8F7003A4330 /* Viber */,
+				F46201BE22CFD8F7003A4330 /* Telegram */,
+				F46201C022CFD8F7003A4330 /* Instagram */,
+				F46201C222CFD8F7003A4330 /* Whatsapp */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		F46201BA22CFD8F7003A4330 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				F46201BB22CFD8F7003A4330 /* SPTwitter.swift */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		F46201BC22CFD8F7003A4330 /* Viber */ = {
+			isa = PBXGroup;
+			children = (
+				F46201BD22CFD8F7003A4330 /* SPViber.swift */,
+			);
+			path = Viber;
+			sourceTree = "<group>";
+		};
+		F46201BE22CFD8F7003A4330 /* Telegram */ = {
+			isa = PBXGroup;
+			children = (
+				F46201BF22CFD8F7003A4330 /* SPTelegram.swift */,
+			);
+			path = Telegram;
+			sourceTree = "<group>";
+		};
+		F46201C022CFD8F7003A4330 /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				F46201C122CFD8F7003A4330 /* SPInstagram.swift */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		F46201C222CFD8F7003A4330 /* Whatsapp */ = {
+			isa = PBXGroup;
+			children = (
+				F46201C322CFD8F7003A4330 /* SPWhatsApp.swift */,
+			);
+			path = Whatsapp;
+			sourceTree = "<group>";
+		};
+		F46201C422CFD8F7003A4330 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F46201C522CFD8F7003A4330 /* SPAudio.swift */,
+				F46201C622CFD8F7003A4330 /* SPAudioPlayer.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		F46201C722CFD8F7003A4330 /* Code Draw */ = {
+			isa = PBXGroup;
+			children = (
+				F46201C822CFD8F7003A4330 /* SPCodeAudioIconPack.swift */,
+				F46201C922CFD8F7003A4330 /* SPCodeSocialIconPack.swift */,
+				F46201CA22CFD8F7003A4330 /* SPCodeSystemIconPack.swift */,
+				F46201CB22CFD8F7003A4330 /* SPCodeDraw.swift */,
+				F46201CC22CFD8F7003A4330 /* SPGolubevGolubevIconPack.swift */,
+			);
+			path = "Code Draw";
+			sourceTree = "<group>";
+		};
+		F46201CD22CFD8F7003A4330 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				F46201CE22CFD8F7003A4330 /* SPDevice.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		F46201CF22CFD8F7003A4330 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				F46201D022CFD8F7003A4330 /* SPRandom.swift */,
+			);
+			path = Random;
+			sourceTree = "<group>";
+		};
+		F46201D122CFD8F7003A4330 /* Delay */ = {
+			isa = PBXGroup;
+			children = (
+				F46201D222CFD8F7003A4330 /* SPDelay.swift */,
+			);
+			path = Delay;
+			sourceTree = "<group>";
+		};
+		F46201D322CFD8F7003A4330 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				F46201D422CFD8F7003A4330 /* SPShare.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F462010222CFD397003A4330 /* lark-controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F462011722CFD399003A4330 /* Build configuration list for PBXNativeTarget "lark-controller" */;
+			buildPhases = (
+				F46200FF22CFD397003A4330 /* Sources */,
+				F462010022CFD397003A4330 /* Frameworks */,
+				F462010122CFD397003A4330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lark-controller";
+			productName = "lark-controller";
+			productReference = F462010322CFD397003A4330 /* lark-controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46200FB22CFD397003A4330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Ivan Vorobei";
+				TargetAttributes = {
+					F462010222CFD397003A4330 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = F46200FE22CFD397003A4330 /* Build configuration list for PBXProject "lark-controller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46200FA22CFD397003A4330;
+			productRefGroup = F462010422CFD397003A4330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F462010222CFD397003A4330 /* lark-controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F462010122CFD397003A4330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F462011322CFD399003A4330 /* LaunchScreen.storyboard in Resources */,
+				F462011022CFD399003A4330 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46200FF22CFD397003A4330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F462024422CFD8F7003A4330 /* SPCodeAudioIconPack.swift in Sources */,
+				F46201FA22CFD8F7003A4330 /* SPBlurView.swift in Sources */,
+				F46201E822CFD8F7003A4330 /* SPSystemIconButton.swift in Sources */,
+				F462021222CFD8F7003A4330 /* SPUIAlertControllerExtenshion.swift in Sources */,
+				F462024222CFD8F7003A4330 /* SPAudio.swift in Sources */,
+				F462024522CFD8F7003A4330 /* SPCodeSocialIconPack.swift in Sources */,
+				F46201EA22CFD8F7003A4330 /* SPDownloadingButton.swift in Sources */,
+				F46201F122CFD8F7003A4330 /* SPFooterButtonsView.swift in Sources */,
+				F46201D522CFD8F7003A4330 /* SPVibration.swift in Sources */,
+				F462013122CFD3DD003A4330 /* SPLarkControllerExtenshion.swift in Sources */,
+				F462022022CFD8F7003A4330 /* SPTextFieldExtenshion.swift in Sources */,
+				F462023622CFD8F7003A4330 /* SPShadowDeep.swift in Sources */,
+				F462021D22CFD8F7003A4330 /* SPStrideableExtension.swift in Sources */,
+				F46201F922CFD8F7003A4330 /* SPVideoPlayer.swift in Sources */,
+				F462022422CFD8F7003A4330 /* SPUILabelExtenshion.swift in Sources */,
+				F46201FE22CFD8F7003A4330 /* SPCenterLabelsView.swift in Sources */,
+				F462021522CFD8F7003A4330 /* SPUIFontExtenshion.swift in Sources */,
+				F462021022CFD8F7003A4330 /* SPTypes.swift in Sources */,
+				F46201DA22CFD8F7003A4330 /* SPFormTextFiledTableViewCell.swift in Sources */,
+				F462022322CFD8F7003A4330 /* SPCGRectExtension.swift in Sources */,
+				F462022822CFD8F7003A4330 /* SPUIColorExtension.swift in Sources */,
+				F462024B22CFD8F7003A4330 /* SPDelay.swift in Sources */,
+				F462022B22CFD8F7003A4330 /* SPApp.swift in Sources */,
+				F462023322CFD8F7003A4330 /* SPMail.swift in Sources */,
+				F46201F522CFD8F7003A4330 /* SPDownloadingUIImageView.swift in Sources */,
+				F462020622CFD8F7003A4330 /* SPStatusBarManagerController.swift in Sources */,
+				F462020422CFD8F7003A4330 /* SPNativeTableController.swift in Sources */,
+				F46201D622CFD8F7003A4330 /* SPPromoTableViewCell.swift in Sources */,
+				F462023822CFD8F7003A4330 /* SPAnimationSpring.swift in Sources */,
+				F46201DF22CFD8F7003A4330 /* SPImageTableViewCell.swift in Sources */,
+				F46201EE22CFD8F7003A4330 /* SPAppleMusicButton.swift in Sources */,
+				F462020A22CFD8F7003A4330 /* SPImageCollectionViewCell.swift in Sources */,
+				F462023522CFD8F7003A4330 /* SPShadow.swift in Sources */,
+				F46201DE22CFD8F7003A4330 /* SPMengTransformTableViewCell.swift in Sources */,
+				F462021822CFD8F7003A4330 /* SPUIViewExtenshion.swift in Sources */,
+				F462020322CFD8F7003A4330 /* SPProposeController.swift in Sources */,
+				F46201E422CFD8F7003A4330 /* SPPlayCircleButton.swift in Sources */,
+				F462020E22CFD8F7003A4330 /* SPImagesCollectionView.swift in Sources */,
+				F46201DD22CFD8F7003A4330 /* SPFormTextTableViewCell.swift in Sources */,
+				F462022122CFD8F7003A4330 /* SPUITabBarControllerExtenshion.swift in Sources */,
+				F462020722CFD8F7003A4330 /* SPController.swift in Sources */,
+				F46201F222CFD8F7003A4330 /* SPTextField.swift in Sources */,
+				F46201E922CFD8F7003A4330 /* SPNativeLargeButton.swift in Sources */,
+				F462024922CFD8F7003A4330 /* SPDevice.swift in Sources */,
+				F462022E22CFD8F7003A4330 /* SPNativeColors.swift in Sources */,
+				F462023D22CFD8F7003A4330 /* SPTwitter.swift in Sources */,
+				F462023F22CFD8F7003A4330 /* SPTelegram.swift in Sources */,
+				F462023022CFD8F7003A4330 /* SPLocalAuthentication.swift in Sources */,
+				F462024622CFD8F7003A4330 /* SPCodeSystemIconPack.swift in Sources */,
+				F46201F822CFD8F7003A4330 /* SPSeparatorView.swift in Sources */,
+				F462020022CFD8F7003A4330 /* SPSocialIconView.swift in Sources */,
+				F46201EC22CFD8F7003A4330 /* SPCircleCloseButton.swift in Sources */,
+				F462024122CFD8F7003A4330 /* SPWhatsApp.swift in Sources */,
+				F462021622CFD8F7003A4330 /* SPUIImageExtension.swift in Sources */,
+				F462020B22CFD8F7003A4330 /* SPCollectionViewLayout.swift in Sources */,
+				F462020522CFD8F7003A4330 /* SPTableController.swift in Sources */,
+				F462023A22CFD8F7003A4330 /* SPAnimation.swift in Sources */,
+				F462022922CFD8F7003A4330 /* SPUIButtonExtenshion.swift in Sources */,
+				F462022C22CFD8F7003A4330 /* SPAppBadge.swift in Sources */,
+				F462021422CFD8F7003A4330 /* SPUITextFieldExtenshion.swift in Sources */,
+				F462024022CFD8F7003A4330 /* SPInstagram.swift in Sources */,
+				F462020D22CFD8F7003A4330 /* SPCollectionView.swift in Sources */,
+				F462021E22CFD8F7003A4330 /* SPUIVisualEffectViewExtenshion.swift in Sources */,
+				F462012E22CFD3DD003A4330 /* SPLarkPresentationController.swift in Sources */,
+				F46201D722CFD8F7003A4330 /* SPFormButtonTableViewCell.swift in Sources */,
+				F46201D822CFD8F7003A4330 /* SPFormMailTableViewCell.swift in Sources */,
+				F462021F22CFD8F7003A4330 /* SPUICollectionViewExtenshion.swift in Sources */,
+				F462010B22CFD397003A4330 /* ViewController.swift in Sources */,
+				F462022222CFD8F7003A4330 /* SPUINavigationControllerExtenshion.swift in Sources */,
+				F462021122CFD8F7003A4330 /* SPLocale.swift in Sources */,
+				F462023222CFD8F7003A4330 /* SPLocalNotification.swift in Sources */,
+				F46201E122CFD8F7003A4330 /* SPBaseContentTableViewCell.swift in Sources */,
+				F462022722CFD8F7003A4330 /* SPUIImageViewExtenshion.swift in Sources */,
+				F46201E522CFD8F7003A4330 /* SPSocialButton.swift in Sources */,
+				F462024C22CFD8F7003A4330 /* SPShare.swift in Sources */,
+				F46201E622CFD8F7003A4330 /* SPAppleMusicSectionButtonsView.swift in Sources */,
+				F462021B22CFD8F7003A4330 /* SPUIViewControllerExtenshion.swift in Sources */,
+				F46201F622CFD8F7003A4330 /* SPView.swift in Sources */,
+				F46201FB22CFD8F7003A4330 /* SPEmptyLabelsView.swift in Sources */,
+				F462024822CFD8F7003A4330 /* SPGolubevGolubevIconPack.swift in Sources */,
+				F462010722CFD397003A4330 /* AppDelegate.swift in Sources */,
+				F46201FD22CFD8F7003A4330 /* SPLabel.swift in Sources */,
+				F462023722CFD8F7003A4330 /* SPAnimationUpward.swift in Sources */,
+				F462023C22CFD8F7003A4330 /* SPBufer.swift in Sources */,
+				F462024322CFD8F7003A4330 /* SPAudioPlayer.swift in Sources */,
+				F462021A22CFD8F7003A4330 /* SPUserDefaultsExtenshion.swift in Sources */,
+				F462021C22CFD8F7003A4330 /* SPStringExtenshion.swift in Sources */,
+				F46201D922CFD8F7003A4330 /* SPFormLabelTableViewCell.swift in Sources */,
+				F462020122CFD8F7003A4330 /* SPSystemIconView.swift in Sources */,
+				F46201ED22CFD8F7003A4330 /* SPAppStoreActionButton.swift in Sources */,
+				F462013022CFD3DD003A4330 /* SPLarkTransitioningDelegate.swift in Sources */,
+				F462021722CFD8F7003A4330 /* SPUITableView.swift in Sources */,
+				F46201E322CFD8F7003A4330 /* SPTableView.swift in Sources */,
+				F46201F322CFD8F7003A4330 /* SPTextView.swift in Sources */,
+				F462022522CFD8F7003A4330 /* SPDateExtenshion.swift in Sources */,
+				F462012C22CFD3DD003A4330 /* SPLarkSettingsCollectionView.swift in Sources */,
+				F462024722CFD8F7003A4330 /* SPCodeDraw.swift in Sources */,
+				F462022F22CFD8F7003A4330 /* SPConstraints.swift in Sources */,
+				F46201E222CFD8F7003A4330 /* SPTableViewCell.swift in Sources */,
+				F46201DC22CFD8F7003A4330 /* SPFormTextInputTableViewCell.swift in Sources */,
+				F46201EF22CFD8F7003A4330 /* SPImageView.swift in Sources */,
+				F462022D22CFD8F7003A4330 /* SPAppLaunch.swift in Sources */,
+				F46201DB22CFD8F7003A4330 /* SPFormFeaturedTitleTableViewCell.swift in Sources */,
+				F462012822CFD3DD003A4330 /* SPLarkController.swift in Sources */,
+				F462012B22CFD3DD003A4330 /* SPLarkSettingsController.swift in Sources */,
+				F46201EB22CFD8F7003A4330 /* SPButton.swift in Sources */,
+				F462021922CFD8F7003A4330 /* SPArrayExtension.swift in Sources */,
+				F462023B22CFD8F7003A4330 /* SPDownloader.swift in Sources */,
+				F46201FC22CFD8F7003A4330 /* SPSectionLabelsView.swift in Sources */,
+				F462024A22CFD8F7003A4330 /* SPRandom.swift in Sources */,
+				F46201FF22CFD8F7003A4330 /* SPAudioIconView.swift in Sources */,
+				F46201F722CFD8F7003A4330 /* SPGradientView.swift in Sources */,
+				F462012A22CFD3DD003A4330 /* SPLarkSettingsCollectionViewCell.swift in Sources */,
+				F46201F022CFD8F7003A4330 /* SPScrollView.swift in Sources */,
+				F462020222CFD8F7003A4330 /* SPGolubevIconView.swift in Sources */,
+				F46201F422CFD8F7003A4330 /* SPGradeBlurView.swift in Sources */,
+				F462023422CFD8F7003A4330 /* SPLayout.swift in Sources */,
+				F462020922CFD8F7003A4330 /* SPMengTransformCollectionViewCell.swift in Sources */,
+				F462022A22CFD8F7003A4330 /* SPAppOpener.swift in Sources */,
+				F462023122CFD8F7003A4330 /* SPAppStore.swift in Sources */,
+				F462023922CFD8F7003A4330 /* SPAnimationAlpha.swift in Sources */,
+				F462022622CFD8F7003A4330 /* SPCGSizeExtenshion.swift in Sources */,
+				F462012922CFD3DD003A4330 /* SPLarkSettingsCloseButton.swift in Sources */,
+				F46201E022CFD8F7003A4330 /* SPProposeTableViewCell.swift in Sources */,
+				F462020F22CFD8F7003A4330 /* SPPageCollectionView.swift in Sources */,
+				F462020C22CFD8F7003A4330 /* SPMengTransformCollectionView.swift in Sources */,
+				F462012F22CFD3DD003A4330 /* SPLarkDismissingAnimationController.swift in Sources */,
+				F46201E722CFD8F7003A4330 /* SPDotsButton.swift in Sources */,
+				F462012D22CFD3DD003A4330 /* SPLarkPresentingAnimationController.swift in Sources */,
+				F462023E22CFD8F7003A4330 /* SPViber.swift in Sources */,
+				F462020822CFD8F7003A4330 /* SPCollectionViewCell.swift in Sources */,
+				F462021322CFD8F7003A4330 /* SPUITableViewCellExtenshion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F462011122CFD399003A4330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F462011222CFD399003A4330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F462011522CFD399003A4330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F462011622CFD399003A4330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F462011822CFD399003A4330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JMTA2AAF3;
+				INFOPLIST_FILE = "lark-controller/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "by.ivanvorobei.lark-controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F462011922CFD399003A4330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JMTA2AAF3;
+				INFOPLIST_FILE = "lark-controller/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "by.ivanvorobei.lark-controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46200FE22CFD397003A4330 /* Build configuration list for PBXProject "lark-controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F462011522CFD399003A4330 /* Debug */,
+				F462011622CFD399003A4330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F462011722CFD399003A4330 /* Build configuration list for PBXNativeTarget "lark-controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F462011822CFD399003A4330 /* Debug */,
+				F462011922CFD399003A4330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46200FB22CFD397003A4330 /* Project object */;
+}

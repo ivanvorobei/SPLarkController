@@ -3,7 +3,7 @@
 <a href="https://itunes.apple.com/app/id1453325619" target="_blank"><img align="left" src="https://github.com/ivanvorobei/SPLarkController/blob/master/Resources/Preview.gif" width="440"/></a>
 
 ### About
-Transition between controllers to top. Make **settings screen** for application. You can add **buttons and switches**. For implement settings as in preiew, see section [Settings Controller](https://github.com/ivanvorobei/SPLarkController#settings-controller).
+Transition between controllers to top. You can change animatable height after presentation controller. For implement settings as in preiew, see section [Settings Controller](https://github.com/ivanvorobei/SPLarkController#settings-controller).
 
 You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore. For **buy source code** of app in preview, go to:
 
@@ -22,6 +22,7 @@ See project's backers in [Sponsors](https://github.com/ivanvorobei/SPLarkControl
 - [Usage](#usage)
     - [Presenting](#presenting)
     - [Custom Height](#custom-height)
+    - [Change Height](#change-height)
     - [Settings Controller](#settings-controller)
     - [Snapshots](#snapshots)
 - [Sponsors](#sponsors)
@@ -97,6 +98,18 @@ Parameter `customHeight` sets custom height for modal controller. Default is `ni
 ```swift
 transitionDelegate.customHeight = 350
 ```
+
+### Change Height
+
+For change height after presenting use with code:
+
+```swift
+if let presentationController = self.presentationController as? SPLarkPresentationController {
+    presentationController.updateHeight(600)
+}
+```
+
+You can see how it work in `Example` folder. I am plase ready-use project.
 
 ### Settings Controller
 
