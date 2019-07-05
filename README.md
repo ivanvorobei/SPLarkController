@@ -21,7 +21,7 @@ See project's backers in [Sponsors](https://github.com/ivanvorobei/SPLarkControl
 - [Installation](#installation)
 - [Usage](#usage)
     - [Presenting](#presenting)
-    - [Custom height](#custom-height)
+    - [Height](#height)
     - [Change height after presentation](#change-height)
     - [Settings Controller](#settings-controller)
     - [Snapshots](#snapshots)
@@ -91,7 +91,7 @@ controller.transitioningDelegate = SPLarkTransitioningDelegate()
 
 You will get an error about weak property.
 
-### Custom Height
+### Height
 
 Parameter `customHeight` sets custom height for modal controller. Default is `nil`:
 
