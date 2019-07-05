@@ -71,6 +71,25 @@ class SPLarkPresentationController: UIPresentationController, UIGestureRecognize
         return CGRect(x: 0, y: containerView.bounds.height - self.height, width: containerView.bounds.width, height: self.height)
     }
     
+    public func updateHeight(_ newHeight: CGFloat) {
+        guard let containerView = containerView else { return }
+        
+        UIView.animate(
+            withDuration: 0.45,
+            delay: 0,
+            usingSpringWithDamping: 1,
+            initialSpringVelocity: 1,
+            options: [.curveEaseOut, .allowUserInteraction],
+            animations: {
+                self.presentedView?.frame.origin.y = containerView.frame.height - newHeight
+                self.presentedView?.frame.size.height = newHeight
+                self.snapshotViewContainer.transform = CGAffineTransform(translationX: 0, y: -newHeight)
+        }
+        ) { _ in
+            self.customHeight = newHeight
+        }
+    }
+    
     override func presentationTransitionWillBegin() {
         super.presentationTransitionWillBegin()
         
