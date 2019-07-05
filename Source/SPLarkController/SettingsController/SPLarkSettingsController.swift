@@ -49,7 +49,7 @@ open class SPLarkSettingsController: UIViewController {
         fatalError("SPLarkSettingsController - Need implement function")
     }
     
-    open func settingDidSelect(index: Int, complection: @escaping () -> ()) {
+    open func settingDidSelect(index: Int, completion: @escaping () -> ()) {
         fatalError("SPLarkSettingsController - Need implement function")
     }
     
