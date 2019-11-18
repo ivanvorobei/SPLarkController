@@ -160,7 +160,7 @@ Alert you can find in [SPAlert](https://github.com/ivanvorobei/SPAlert) project.
 
 ---
 
-<img align="left" src="https://github.com/ivanvorobei/SPAlert/blob/master/Resources/Preview-Done.gif" width="220"/>
+<img align="left" src="https://github.com/ivanvorobei/SPAlert/blob/master/Assets/Readme/Preview%20-%20Done.gif" width="220"/>
 
 ### SPAlert
 
@@ -171,13 +171,14 @@ You can download example [Debts - Spending tracker](https://itunes.apple.com/app
 
 ---
 
-<img align="left" src="https://github.com/ivanvorobei/SPPermission/blob/master/Resources/Preview.gif" width="220"/>
+<img align="left" src="https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Readme/Preview%20-%205.0.jpg" width="220"/>
 
 ### SPPermission
 
-[SPPermission](https://github.com/ivanvorobei/SPPermission) allow request permissions **with native dialog** UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customisation.
+[SPPermission](https://github.com/ivanvorobei/SPPermissions) allow request permissions **with native dialog** UI and interactive animations. Also you can request permissions without dialog. Check state any permission. You can start using this project with just two lines of code and easy customisation.
 
 You can buy example Dialog & Dinamic animations in [xcode-shop.com](https://xcode-shop.com/ui-elements), see [preview](https://xcode-shop.com/assets/preview/dinamic-alert.mov).
+
 
 ## License
 
