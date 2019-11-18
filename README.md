@@ -7,11 +7,11 @@ Transition between controllers to top. You can change animatable height after pr
 
 You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore. For **buy source code** of app in preview, go to:
 
-[![xcode-shop.com](https://github.com/ivanvorobei/SPPermission/blob/master/Resources/Buttons/Xcode%20Shop%20Button%20-%201.svg)](https://xcode-shop.com)
+[![xcode-shop.com](https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Buttons/xcode-shop.svg)](https://xcode-shop.com)
 
 If you like the project, do not forget to `put star ★` and follow me on GitHub:
 
-[![https://github.com/ivanvorobei](https://github.com/ivanvorobei/SPPermission/blob/master/Resources/Buttons/Follow%20me%20-%2016.svg)](https://github.com/ivanvorobei)
+[![https://github.com/ivanvorobei](https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Buttons/follow-me-on-github.svg)](https://github.com/ivanvorobei)
 
 See project's backers in [Sponsors](https://github.com/ivanvorobei/SPLarkController#sponsors) section.
 
