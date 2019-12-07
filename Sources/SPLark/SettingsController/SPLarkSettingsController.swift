@@ -21,6 +21,7 @@
 
 import UIKit
 
+@available(iOS 8.2, *)
 open class SPLarkSettingsController: UIViewController {
     
     public let titleLabel = UILabel()
@@ -89,6 +90,7 @@ open class SPLarkSettingsController: UIViewController {
     }
 }
 
+@available(iOS 8.2, *)
 extension SPLarkSettingsController: UICollectionViewDataSource, UICollectionViewDelegate {
     
     open func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
