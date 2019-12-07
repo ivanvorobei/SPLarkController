@@ -21,6 +21,7 @@
 
 import UIKit
 
+@available(iOS 10.0, *)
 public struct SPLarkController {
     
     static public func updatePresentingController(parent controller: UIViewController) {

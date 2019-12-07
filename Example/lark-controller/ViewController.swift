@@ -1,4 +1,5 @@
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
     
@@ -16,8 +17,10 @@ class ViewController: UIViewController {
         self.button.addTarget(self, action: #selector(self.presentLarkController), for: .touchUpInside)
     }
     
+    @available(iOS 13.0, *)
     @objc func presentLarkController() {
         let controller = DetailController()
+        let controller = viewCtrl
         let transitionDelegate = SPLarkTransitioningDelegate()
         transitionDelegate.customHeight = 300
         controller.transitioningDelegate = transitionDelegate
