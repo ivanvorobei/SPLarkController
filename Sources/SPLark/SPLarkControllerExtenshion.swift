@@ -21,6 +21,7 @@
 
 import UIKit
 
+@available(iOS 10.0, *)
 extension UIViewController {
     
     open var isPresentedAsLark: Bool {

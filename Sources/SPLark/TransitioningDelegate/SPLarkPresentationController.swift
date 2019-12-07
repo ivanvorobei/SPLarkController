@@ -21,6 +21,7 @@
 
 import UIKit
 
+@available(iOS 10.0, *)
 class SPLarkPresentationController: UIPresentationController, UIGestureRecognizerDelegate {
     
     var transitioningDelegate: SPLarkTransitioningDelegate?
@@ -162,6 +163,7 @@ class SPLarkPresentationController: UIPresentationController, UIGestureRecognize
     }
 }
 
+@available(iOS 10.0, *)
 extension SPLarkPresentationController {
     
     @objc func handlePan(gestureRecognizer: UIPanGestureRecognizer) {
