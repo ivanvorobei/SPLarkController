@@ -1,7 +1,6 @@
 import UIKit
 import SwiftUI
 
-@available(iOS 13.0, *)
 class ViewController: UIViewController {
     
     var button = UIButton.init(type: .system)
@@ -20,8 +19,7 @@ class ViewController: UIViewController {
     
     @available(iOS 13.0, *)
     @objc func presentLarkController() {
-        let swiftUIView = TestSwiftUIView() // swiftUIView is View
-        let viewCtrl = UIHostingController(rootView: swiftUIView)
+        let controller = DetailController()
         let controller = viewCtrl
         let transitionDelegate = SPLarkTransitioningDelegate()
         transitionDelegate.customHeight = 300
