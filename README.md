@@ -5,7 +5,9 @@
 ### About
 Transition between controllers to top. You can change animatable height after presentation controller. For implement settings as in preiew, see section [Settings Controller](https://github.com/ivanvorobei/SPLarkController#settings-controller).
 
-You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore. For **buy source code** of app in preview, go to:
+You can download example app [Code - Learn Swift & Design](https://itunes.apple.com/app/id1453325619) from AppStore. 
+
+For **buy source code** of app in preview, go to:
 
 [![xcode-shop.com](https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Buttons/xcode-shop.svg)](https://xcode-shop.com)
 
