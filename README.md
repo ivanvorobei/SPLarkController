@@ -13,8 +13,6 @@ If you like the project, do not forget to `put star ★` and follow me on GitHub
 
 [![https://github.com/ivanvorobei](https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Buttons/follow-me-on-github.svg)](https://github.com/ivanvorobei)
 
-See project's backers in [Sponsors](https://github.com/ivanvorobei/SPLarkController#sponsors) section.
-
 ## Navigate
 
 - [Requirements](#requirements)
@@ -138,15 +136,6 @@ controller.modalPresentationStyle = .custom
 ```
 
 It’s needed for correct presentation and dismissal of all modal controllers.
-
-## Sponsors
-
-Support me with a monthly donation and help me continue activities. After payment I add you to list of sponsor **in my all projects** with link to your profile. [Become a sponsors](https://www.patreon.com/ivanvorobei)
-
-<a href="https://github.com/zubara21/" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/zubara21.jpg" width="100"></a>
-<a href="https://github.com/sparrowganz/" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/sparrowganz.jpg" width="100"></a>
-<a href="https://github.com/shatk0vskiy/" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/shatk0vskiy.jpg" width="100"></a>
-<a href="https://www.patreon.com/ivanvorobei" target="_blank"><img src="https://github.api.ivanvorobei.by/sponsors/add.jpg" width="100"></a>
 
 ## My projects
 
