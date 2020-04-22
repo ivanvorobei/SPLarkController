@@ -1,6 +1,6 @@
 # SPLarkController
 
-<a href="https://itunes.apple.com/app/id1453325619" target="_blank"><img align="left" src="https://github.com/ivanvorobei/SPLarkController/blob/master/Resources/Preview.gif" width="400"/></a>
+<a href="https://itunes.apple.com/app/id1453325619" target="_blank"><img align="left" src="https://github.com/ivanvorobei/SPLarkController/blob/master/Resources/Preview.gif" width="380"/></a>
 
 ### About
 Transition between controllers to top. You can change animatable height after presentation controller. 
