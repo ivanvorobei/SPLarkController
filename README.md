@@ -3,13 +3,9 @@
 <a href="https://itunes.apple.com/app/id1453325619" target="_blank"><img align="left" src="https://github.com/ivanvorobei/SPLarkController/blob/master/Resources/Preview.gif" width="360"/></a>
 
 ### About
-Transition between controllers to top. You can change animatable height after presentation controller. 
+Transition between controllers to top. You can change animatable height after presentation controller. Using custom transition delegate. 
 
 For implement settings as in preiew, see section [Settings Controller](https://github.com/ivanvorobei/SPLarkController#settings-controller).
-
-For **buy source code** of my apps, go to:
-
-[![xcode-shop.com](https://github.com/ivanvorobei/SPPermissions/blob/master/Assets/Buttons/xcode-shop.svg)](https://xcode-shop.com)
 
 If you like the project, don't forget to `put star ★` and follow me on GitHub:
 
