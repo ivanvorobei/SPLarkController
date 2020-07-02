@@ -5,7 +5,7 @@
 ### About
 Transition between controllers to top. You can change animatable height after presentation controller. For presentation and dismissing using custom transition delegate. 
 
-For implement settings as in preiew, see section [Settings Controller](https://github.com/ivanvorobei/SPLarkController#settings-controller). You can set any content inside bottom controller.
+For implement settings as in preiew, see section [Settings Controller](https://github.com/ivanvorobei/SPLarkController#settings-controller). You can set any content to bottom controller, like buttons or even collection as in preview.
 
 If you like the project, don't forget to `put star ★` and follow me on GitHub:
 
