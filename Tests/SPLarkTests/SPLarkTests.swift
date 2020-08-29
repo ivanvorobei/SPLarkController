@@ -1,5 +1,4 @@
 import XCTest
-@testable import SPLark
 
 final class SPLarkTests: XCTestCase {
     func testExample() {
