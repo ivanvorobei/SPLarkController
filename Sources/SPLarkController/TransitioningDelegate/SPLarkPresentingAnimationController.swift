@@ -1,5 +1,5 @@
 // The MIT License (MIT)
-// Copyright © 2017 Ivan Varabei (varabeis@icloud.com)
+// Copyright © 2017 Ivan Vorobei (hello@ivanvorobei.by)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -21,21 +21,29 @@
 
 import UIKit
 
-final class SPLarkDismissingAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
+final class SPLarkPresentingAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
     
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+        
+        guard let presentedViewController = transitionContext.viewController(forKey: .to) else { return }
+        
+        let containerView = transitionContext.containerView
+        containerView.addSubview(presentedViewController.view)
+        
+        let finalFrameForPresentedView = transitionContext.finalFrame(for: presentedViewController)
+        presentedViewController.view.frame = finalFrameForPresentedView
         
         UIView.animate(
             withDuration: transitionDuration(using: transitionContext),
             delay: 0,
             usingSpringWithDamping: 1,
             initialSpringVelocity: 1,
-            options: .curveEaseIn,
+            options: .curveEaseOut,
             animations: {
                 
-        }) { finished in
+        }, completion: { finished in
             transitionContext.completeTransition(finished)
-        }
+        })
     }
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
