@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
 
   s.name          = "SPLarkController"
-  s.version       = "1.1.6"
+  s.version       = "1.1.7"
   s.summary       = "Make settings screen for application. Can add buttons and switches. Easy customisation."
-  s.homepage      = "https://github.com/varabeis/SPLarkController"
-  s.source        = { :git => "https://github.com/varabeis/SPLarkController.git", :tag => s.version }
+  s.homepage      = "https://github.com/ivanvorobei/SPLarkController"
+  s.source        = { :git => "https://github.com/ivanvorobei/SPLarkController.git", :tag => s.version }
   s.license       = { :type => "MIT", :file => "LICENSE" }
   
   s.author        = { "Ivan Vorobei" => "hello@ivanvorobei.by" }
