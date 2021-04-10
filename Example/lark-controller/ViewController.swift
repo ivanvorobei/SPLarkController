@@ -14,13 +14,14 @@ class ViewController: UIViewController {
         self.button.sizeToFit()
         self.button.center.x = self.view.frame.width / 2
         self.button.frame.origin.y = 100
-        self.button.addTarget(self, action: #selector(self.presentLarkController), for: .touchUpInside)
+        if #available(iOS 13.0, *) {
+            self.button.addTarget(self, action: #selector(self.presentLarkController), for: .touchUpInside)
+        }
     }
     
     @available(iOS 13.0, *)
     @objc func presentLarkController() {
         let controller = DetailController()
-        let controller = viewCtrl
         let transitionDelegate = SPLarkTransitioningDelegate()
         transitionDelegate.customHeight = 300
         controller.transitioningDelegate = transitionDelegate

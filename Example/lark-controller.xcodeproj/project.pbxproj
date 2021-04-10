@@ -141,7 +141,6 @@
 		F462024A22CFD8F7003A4330 /* SPRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201D022CFD8F7003A4330 /* SPRandom.swift */; };
 		F462024B22CFD8F7003A4330 /* SPDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201D222CFD8F7003A4330 /* SPDelay.swift */; };
 		F462024C22CFD8F7003A4330 /* SPShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46201D422CFD8F7003A4330 /* SPShare.swift */; };
-		FA6EE35F239C02B800182DFA /* TestSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6EE35E239C02B800182DFA /* TestSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -281,7 +280,6 @@
 		F46201D022CFD8F7003A4330 /* SPRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRandom.swift; sourceTree = "<group>"; };
 		F46201D222CFD8F7003A4330 /* SPDelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDelay.swift; sourceTree = "<group>"; };
 		F46201D422CFD8F7003A4330 /* SPShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPShare.swift; sourceTree = "<group>"; };
-		FA6EE35E239C02B800182DFA /* TestSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,7 +348,6 @@
 				F462011A22CFD3DD003A4330 /* Frameworks */,
 				F462010622CFD397003A4330 /* AppDelegate.swift */,
 				F462010A22CFD397003A4330 /* ViewController.swift */,
-				FA6EE35E239C02B800182DFA /* TestSwiftUIView.swift */,
 				F462010F22CFD399003A4330 /* Assets.xcassets */,
 				F462011122CFD399003A4330 /* LaunchScreen.storyboard */,
 				F462011422CFD399003A4330 /* Info.plist */,
@@ -1029,7 +1026,6 @@
 				F462020C22CFD8F7003A4330 /* SPMengTransformCollectionView.swift in Sources */,
 				2BE57F8F24FE47FE0087A7A8 /* SPLarkSettingsCloseButton.swift in Sources */,
 				F46201E722CFD8F7003A4330 /* SPDotsButton.swift in Sources */,
-				FA6EE35F239C02B800182DFA /* TestSwiftUIView.swift in Sources */,
 				F462023E22CFD8F7003A4330 /* SPViber.swift in Sources */,
 				F462020822CFD8F7003A4330 /* SPCollectionViewCell.swift in Sources */,
 				F462021322CFD8F7003A4330 /* SPUITableViewCellExtenshion.swift in Sources */,
