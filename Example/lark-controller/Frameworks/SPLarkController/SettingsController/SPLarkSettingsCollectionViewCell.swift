@@ -21,7 +21,8 @@
 
 import UIKit
 
-class SPLarkSettingsCollectionViewCell: UICollectionViewCell {
+@available(iOS 8.2, *)
+public class SPLarkSettingsCollectionViewCell: UICollectionViewCell {
 
     let titleLabel = UILabel()
     let subtitleLabel = UILabel()

@@ -21,17 +21,18 @@
 
 import UIKit
 
+@available(iOS 10.0, *)
 public struct SPLarkController {
     
-    static public func updatePresentingController(parent controller: UIViewController) {
+    static public func updatePresentingController(parent controller: UIViewController, animated: Bool, completion: ((Bool) -> Void)? = nil) {
         if let presentationController = controller.presentedViewController?.presentationController as? SPLarkPresentationController {
-            presentationController.updatePresentingController()
+            presentationController.updatePresentingController(animated: animated, completion: completion)
         }
     }
     
-    static public func updatePresentingController(modal controller: UIViewController) {
+    static public func updatePresentingController(modal controller: UIViewController, animated: Bool, completion: ((Bool) -> Void)? = nil) {
         if let presentationController = controller.presentationController as? SPLarkPresentationController {
-            presentationController.updatePresentingController()
+            presentationController.updatePresentingController(animated: animated, completion: completion)
         }
     }
     

@@ -21,7 +21,7 @@
 
 import UIKit
 
-class SPLarkSettingsCloseButton: UIButton {
+public class SPLarkSettingsCloseButton: UIButton {
     
     private let iconView = SPLarkSettingsCloseIconButton()
     
