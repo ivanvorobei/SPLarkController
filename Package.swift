@@ -20,10 +20,6 @@ let package = Package(
         .target(
             name: "SPLarkController",
             dependencies: [],
-            path: "Source/SPLarkController"),
-        .testTarget(
-            name: "SPLarkTests",
-            dependencies: [],
-            path: "Tests/SPLarkTests")
+            path: "Sources/SPLarkController")
     ]
 )
