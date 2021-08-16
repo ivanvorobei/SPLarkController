@@ -27,7 +27,7 @@ public class SPLarkSettingsCollectionViewCell: UICollectionViewCell {
     let titleLabel = UILabel()
     let subtitleLabel = UILabel()
     
-    override var isHighlighted: Bool{
+    public override var isHighlighted: Bool{
         didSet {
             if isHighlighted {
                 UIView.animate(withDuration: 0.27, delay: 0.0, usingSpringWithDamping: 1, initialSpringVelocity: 1.0, options: [.curveEaseOut, .beginFromCurrentState], animations: {
@@ -75,14 +75,14 @@ public class SPLarkSettingsCollectionViewCell: UICollectionViewCell {
         self.backgroundColor = color
     }
     
-    override func prepareForReuse() {
+    public override func prepareForReuse() {
         super.prepareForReuse()
         self.titleLabel.text = "Title"
         self.subtitleLabel.text = "Subtitle"
         self.layoutSubviews()
     }
     
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         
         if self.isHighlighted {
