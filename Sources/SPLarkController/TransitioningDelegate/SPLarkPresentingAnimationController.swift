@@ -21,9 +21,9 @@
 
 import UIKit
 
-final class SPLarkPresentingAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
+public final class SPLarkPresentingAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         
         guard let presentedViewController = transitionContext.viewController(forKey: .to) else { return }
         
@@ -46,7 +46,7 @@ final class SPLarkPresentingAnimationController: NSObject, UIViewControllerAnima
         })
     }
     
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.45
     }
 }

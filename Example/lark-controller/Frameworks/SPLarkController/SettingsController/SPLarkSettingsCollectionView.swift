@@ -21,6 +21,7 @@
 
 import UIKit
 
+@available(iOS 8.2, *)
 open class SPLarkSettingsCollectionView: UICollectionView {
     
     let layout = UICollectionViewFlowLayout()
