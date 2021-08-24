@@ -45,7 +45,7 @@ extension UIViewController {
         let transitionDelegate = SPLarkTransitioningDelegate()
         var safeArea = UIEdgeInsets.zero
         if #available(iOS 11.0, *) {
-            safeArea = UIApplication.shared.keyWindow?.safeAreaInsets ?? UIEdgeInsets.zero
+            safeArea = UIApplication.shared.windows.filter{ $0.isKeyWindow }.first?.safeAreaInsets ?? UIEdgeInsets.zero
         }
         transitionDelegate.customHeight = 250 + safeArea.bottom
         controller.transitioningDelegate = transitionDelegate
